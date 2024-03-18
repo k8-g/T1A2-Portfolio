@@ -67,7 +67,7 @@ main > a {
 
 main > img {
     height: 40dvh;
-    width: 50dvw;
+    width: auto;
     border-radius: 50%;
     margin: 2em; 
    /* background-color: ;*
