@@ -29,14 +29,14 @@ nav {
 
 nav > a { 
     text-decoration: none; 
-    background-color:;
+    
     color: rgb(8, 8, 8); 
     padding: 0.25em;  
     border-radius: 0.5em; 
 } 
 
 nav > a:hover {
-    background-color: var(--purple-heart-950);
+    background-color: var(--amethyst);
 }
 
 
@@ -51,7 +51,6 @@ body {
 main {
     min-height: 85dvh; 
     width: 100dvw;
- 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,8 +69,8 @@ main > img {
     height: 20dvh;
     width: 50dvw;
     margin: 2em; 
-    background-color: var;
-    color:;
+   /* background-color: ;*
+    color:;*/
     object-fit: cover;
 }
 
@@ -84,7 +83,7 @@ main > h1 {
 }
 
 footer {
-    background-color:;
+    background-color:var(--mauve);
     height: 5dvh;
     width: 100dvw; 
     text-align: center;
