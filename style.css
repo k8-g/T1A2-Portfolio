@@ -116,8 +116,9 @@ main > img {
 
 main > p {
     font-size: small;
-    margin: 5em;
-    margin-top: 0;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 1em;
 }
 
 main > h1 {
@@ -136,3 +137,23 @@ footer {
     justify-content:  center;
     align-items: center;
 } 
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    }
+    
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+}    
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
