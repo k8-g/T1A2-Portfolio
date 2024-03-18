@@ -66,8 +66,9 @@ main > a {
 }
 
 main > img {
-    height: 20dvh;
+    height: 40dvh;
     width: 50dvw;
+    border-radius: 50%;
     margin: 2em; 
    /* background-color: ;*
     color:;*/
@@ -76,6 +77,8 @@ main > img {
 
 main > p {
     font-size: small;
+    margin: 5em;
+    margin-top: 0;
 }
 
 main > h1 {
