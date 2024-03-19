@@ -16,18 +16,18 @@
 
 header {
     display: flex; 
-    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     justify-content: center;
     align-items: center;
     border-bottom: black dashed;
-    
-    
 }
 
 nav {
-    margin-top:  0.25em;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    position: absolute;
+    right: 0;
 }
 
 nav > a { 
@@ -67,22 +67,6 @@ main > * {
     margin: 0.5em;
 }
 
-.contact {
-    margin: 0;
-    padding-bottom: 2%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
-}
-
-.contact > a:hover {
-    color: white;
-    background-color: var(--russian-violet-2);
-    border-radius: 0.5em;
-    padding: 0.25em;
-    padding-bottom: 0.25em;
-    
-}
 
 
 main > a {
@@ -125,6 +109,22 @@ main > h1 {
     text-align: center;
 }
 
+.contact {
+    margin: 0;
+    padding-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.contact > a:hover {
+    color: white;
+    background-color: var(--russian-violet-2);
+    border-radius: 0.5em;
+    padding: 5em;
+    padding-bottom: 0.25em;
+    
+}
 
 
 
@@ -151,7 +151,7 @@ footer {
   background-color: black;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 5px;
   border-radius: 6px;
 }    
 .tooltip:hover .tooltiptext {
