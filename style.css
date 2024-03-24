@@ -42,7 +42,9 @@ nav > a:hover {
     color: white;
 }
 
-/* Dropdown menu button */
+
+
+/* Dropdown menu button, code from w3schools.com*/
 .dropbtn {
     background-color: var(--mauve);
     color: black;
@@ -50,7 +52,6 @@ nav > a:hover {
     padding-bottom: 0;
     font-size: 16px;
     border: none;
-   
   }
 
   .dropdown {
@@ -77,7 +78,7 @@ nav > a:hover {
     display: block;
   }
 
-  /* Change color of dropdown links on hover */
+  /* Color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: var(--tekhelet);
     color: white;
@@ -91,9 +92,8 @@ nav > a:hover {
     justify-content: left;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+/* Background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    /* background-color: var(--tekhelet); */
     border-radius: 1em;
     color: white;
 }
@@ -107,7 +107,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--mauve);
-    
 }
 
 main {
@@ -117,13 +116,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 main > * {
     margin: 0.5em;
 }
-
 
 
 main > a {
@@ -132,9 +129,7 @@ main > a {
     font-size: large;
     justify-content: center;
     align-items: center;
-    
 }
-
 
 
 main > a:hover {
@@ -143,7 +138,6 @@ main > a:hover {
     border-radius: 0.5em;
     padding: 0.25em;
     padding-bottom: 0.25em;
-    
 }
 
 
@@ -155,6 +149,7 @@ main > img {
     object-fit: cover;
 }
 
+
 main > p {
     font-size: small;
     margin-left: 5em;
@@ -162,9 +157,11 @@ main > p {
     margin-bottom: 1em;
 }
 
+
 main > h1 {
     text-align: center;
 }
+
 
 .contact {
     margin: 0;
@@ -180,24 +177,9 @@ main > h1 {
     border-radius: 0.5em;
     padding: 5em;
     padding-bottom: 0.25em;
-    
 }
-/*
-.headertitle {
 
-}
-*/
-
-footer {
-    background-color:var(--mauve);
-    height: 5dvh;
-    width: 100dvw; 
-    text-align: center;
-    display: flex;
-    justify-content:  center;
-    align-items: center;
-} 
-
+/* Contact button tooltip*/
 .tooltip {
     position: relative;
     display: inline-block;
@@ -217,3 +199,14 @@ footer {
 .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+
+
+  footer {
+    background-color:var(--mauve);
+    height: 5dvh;
+    width: 100dvw; 
+    text-align: center;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+} 
