@@ -20,7 +20,7 @@ header {
     text-align: center;
     justify-content: center;
     align-items: center;
-    border-bottom: black dashed;
+    margin-top: 2dvh;
 }
 
 nav {

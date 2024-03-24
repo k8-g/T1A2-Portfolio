@@ -19,8 +19,8 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     justify-content: center;
-    align-items: center;
-    border-bottom: black dashed;
+    align-items: center;    
+    margin-top: 2dvh;
 }
 
 nav {
