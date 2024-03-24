@@ -134,13 +134,13 @@ main > a {
 }
 
 
-main > a:hover {
+/* main > a:hover {
     color: white;
     background-color: var(--russian-violet-2);
     border-radius: 0.5em;
     padding: 0.25em;
     padding-bottom: 0.25em;
-}
+} */
 
 
 main > img {
@@ -165,7 +165,7 @@ main > h1 {
 }
 
 
-.contact {
+/* .contact {
     margin: 0;
     padding-bottom: 1em;
     justify-content: center;
@@ -182,7 +182,7 @@ main > h1 {
 }
 
 /* Contact button tooltip*/
-.tooltip {
+/* .tooltip {
     position: relative;
     display: inline-block;
     justify-content: center;
@@ -200,7 +200,7 @@ main > h1 {
 }    
 .tooltip:hover .tooltiptext {
     visibility: visible;
-  }
+  } */ 
 
 
   footer {
@@ -212,3 +212,38 @@ main > h1 {
     justify-content:  center;
     align-items: center;
 } 
+
+.button {
+    background-color: var(--amethyst); 
+    border: white;
+    border-style:ridge;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0.5em;
+
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    width: 10%;
+    table-layout: fixed;
+  }
+
+  .button:hover {
+    background-color: var(--persian-indigo);
+    border: white;
+    border-style:ridge;
+    color: white;
+    /* padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0.5em; */
+  }
+
+ 
