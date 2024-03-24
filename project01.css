@@ -208,9 +208,9 @@ main > h1 {
 
 
 .projectPreview:hover {
-	border-radius: 0.5em;
+	/* border-radius: 0.5em; */
     box-shadow: 0.5em 0.5em var(--russian-violet);
-    transform: scale(1.075);
+    /* transform: scale(1.075); */
 }
 
 
