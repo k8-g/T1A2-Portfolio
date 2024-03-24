@@ -25,7 +25,7 @@ header {
 
 nav {
     margin-right: 2vw;
-    margin-top: 2vw;
+    margin-top: -1vw;
     position: absolute;
     right: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -136,21 +136,16 @@ main > a {
 }
 
 
-/* main > a:hover {
-    color: white;
-    background-color: var(--russian-violet-2);
-    border-radius: 0.5em;
-    padding: 0.25em;
-    padding-bottom: 0.25em;
-} */
+
 
 
 main > img {
-    height: 40dvh;
+    height: 30dvh;
     width: auto;
     border-radius: 50%;
     margin: 2em; 
     object-fit: cover;
+    
 }
 
 
@@ -165,44 +160,6 @@ main > p {
 main > h1 {
     text-align: center;
 }
-
-
-/* .contact {
-    margin: 0;
-    padding-bottom: 1em;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
-}
-
-.contact > a:hover {
-    color: white;
-    background-color: var(--russian-violet-2);
-    border-radius: 0.5em;
-    padding: 5em;
-    padding-bottom: 0.25em;
-}
-
-/* Contact button tooltip*/
-/* .tooltip {
-    position: relative;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    }
-    
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px;
-  border-radius: 6px;
-}    
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-  } */ 
 
 
   footer {
@@ -231,8 +188,11 @@ main > h1 {
     transition-duration: 0.4s;
     cursor: pointer;
 
-    width: 10%;
+    width: 15%;
     table-layout: fixed;
+    justify-content: center;
+    align-items: center;
+    
   }
 
   .button:hover {
