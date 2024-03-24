@@ -1,0 +1,273 @@
+:root {
+    --russian-violet: #10002bff;
+    --russian-violet-2: #240046ff;
+    --persian-indigo: #3c096cff;
+    --tekhelet: #5a189aff;
+    --french-violet: #7b2cbfff;
+    --amethyst: #9d4eddff;
+    --heliotrope: #c77dffff;
+    --mauve: #C698FF;
+    }  
+
+
+* {
+    margin: 0;
+}
+
+header {
+    display: flex; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2dvh;
+}
+
+nav {
+    margin-right: 2vw;
+    margin-top: 2vw;
+    position: absolute;
+    right: 0;
+}
+
+nav > a { 
+    text-decoration: none; 
+    color: rgb(8, 8, 8); 
+    padding: 0.25em;  
+    border-radius: 0.25em; 
+} 
+
+nav > a:hover {
+    background-color: var(--russian-violet-2);
+    color: white;
+}
+
+
+
+/* Dropdown menu button, code from w3schools.com*/
+.dropbtn {
+    background-color: var(--mauve);
+    color: black;
+    padding: 10px;
+    padding-bottom: 0;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropdown {
+    position:relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    justify-content: left;
+    text-align: left;
+  }
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+   
+  }
+
+  /* Color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: var(--tekhelet);
+    color: white;
+    border-radius: 1em;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 1em;
+    justify-content:end;
+    width:fit-content;
+}
+
+/* Background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    border-radius: 1em;
+    color: white;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mauve);
+}
+
+main {
+    min-height: 85dvh; 
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > * {
+    margin: 0.5em;
+}
+
+
+main > a {
+    margin: 0;
+    color: var(--tekhelet);
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main > a:hover {
+    color: white;
+    background-color: var(--russian-violet-2);
+    border-radius: 0.5em;
+    padding: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+
+main > img {
+    height: 40dvh;
+    width: auto;
+    border-radius: 50%;
+    margin: 2em; 
+    object-fit: cover;
+}
+
+
+main > p {
+    font-size: small;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 1em;
+}
+
+
+main > h1 {
+    text-align: center;
+}
+
+
+
+
+  footer {
+    background-color:var(--mauve);
+    height: 5dvh;
+    width: 100dvw; 
+    text-align: center;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+} 
+
+
+
+
+
+.projectPreview > img {
+	height: 20dvh;
+	border-radius: 1em;
+	
+}
+
+.projectPreview {
+	max-width: 65dvw;
+	transition: 1s;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 1em;	
+	margin: 2em;
+	padding: 1em;
+	background-color: var(--heliotrope);
+	border-radius: 2em;
+	/* filter: drop-shadow(1em 1em 5px var(--purple-heart-600)); */
+	box-shadow: 0.5em 0.5em var(--french-violet);
+}
+
+
+.projectPreview:hover {
+	border-radius: 0.5em;
+}
+
+
+.projectPreview > a {
+	
+	padding: 0.5em;
+	border-radius: 0.5em;
+    text-decoration: none; 
+    color: var(--russian-violet-2);
+}
+
+
+.projectPreview > a:hover{
+    color: white;
+    background-color: var(--french-violet);
+}
+
+
+
+.projectPreview > section {
+	display: flex;
+	column-gap: 2em;
+}
+
+.projectPreview > section > a {
+	background-color: var(--mauve);
+	padding: 1em;
+	border-radius: 1em;
+	border: 2px solid white;
+}
+
+.contentRow {
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	margin: 0;
+}
+
+
+main {
+	margin: 0;
+}
+
+/* Desktop view */
+@media screen and (min-width: 600px) {
+	.contentRow {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+	}
+
+	main {
+		margin: 0;
+		padding: 0;
+
+	}
+
+	.projectPreview {
+		width: 30dvw;
+		margin: 1em;
+		
+	}
+}
