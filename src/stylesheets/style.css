@@ -9,6 +9,7 @@
     --amethyst: #9d4eddff;
     --heliotrope: #c77dffff;
     --mauve: #C698FF;
+    --thistle: #E1C8F8;
     }  
 
 
@@ -20,10 +21,12 @@
 header {
     display: flex; 
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    justify-content: center;
+    justify-content:left;
     align-items: center;    
     margin-top: 2dvh;
+    padding-left: 2em;
+    padding-top: .25em;
+    color: var(--persian-indigo)
 }
 
 /* Nav bar*/
@@ -34,6 +37,7 @@ nav {
     right: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+    transform: translateX(-20px) translateY(5px);
 }
 
 /* Nav bar links */
@@ -53,7 +57,7 @@ nav > a:hover {
 
 /* Dropdown menu button, code from w3schools.com*/
 .dropbtn {
-    background-color: var(--mauve);
+    background-color: var(--thistle);
     color: black;
     padding: 10px;
     padding-bottom: 0;
@@ -69,7 +73,7 @@ nav > a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: var(--mauve);
     min-width: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -83,7 +87,6 @@ nav > a:hover {
     padding: 12px 12px;
     text-decoration: none;
     display: block;
-   
   }
 
   /* Color of dropdown links on hover */
@@ -114,9 +117,14 @@ body {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
-    align-items: center;
-    background-color: var(--mauve);
+    /* align-items: center; */
+    background-color: var(--thistle);
 }
+
+
+
+
+
 
 /* main section on page */
 main {
@@ -160,6 +168,9 @@ main > img {
     object-fit: cover;
 }
 
+
+
+
 /* Paragraph/text in main*/
 main > p {
     font-size: medium;
@@ -173,16 +184,7 @@ main > h1 {
     text-align: center;
 }
 
-/* Footer/text at bottom of pages */
-  footer {
-    background-color:var(--mauve);
-    height: 5dvh;
-    width: 100dvw; 
-    text-align: center;
-    display: flex;
-    justify-content:  center;
-    align-items: center;
-} 
+
 
 /* Button to click to 'About' page */
 .button {
@@ -208,3 +210,30 @@ main > h1 {
     border-style:ridge;
     color: white;
   }
+
+  
+/* Footer/text at bottom of pages */
+footer {
+    height: 5dvh;
+    width: 100dvw; 
+    text-align: center;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+   
+} 
+  
+
+main > .intro {
+    background-color: var(--mauve);
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2em;
+    padding: 2em;
+    box-shadow: 20px 20px 10px var(--russian-violet-2);
+    
+}

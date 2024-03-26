@@ -1,3 +1,4 @@
+/* Colour palette */
 :root {
     --russian-violet: #10002bff;
     --russian-violet-2: #240046ff;
@@ -7,22 +8,26 @@
     --amethyst: #9d4eddff;
     --heliotrope: #c77dffff;
     --mauve: #C698FF;
+    --thistle: #E1C8F8;
     }  
 
 
 * {
     margin: 0;
 }
-
+/* Header/Title of page */
 header {
     display: flex; 
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    justify-content:left;
+    align-items: center;    
     margin-top: 2dvh;
+    padding-left: 2em;
+    padding-top: .25em;
+    color: var(--persian-indigo)
 }
 
+/* Nav bar*/
 nav {
     margin-right: 2vw;
     margin-top: -1vw;
@@ -30,8 +35,10 @@ nav {
     right: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+    transform: translateX(-20px) translateY(5px);
 }
 
+/* Nav bar links */
 nav > a { 
     text-decoration: none; 
     color: rgb(8, 8, 8); 
@@ -39,6 +46,7 @@ nav > a {
     border-radius: 0.25em; 
 } 
 
+/* Colour of links on hover */
 nav > a:hover {
     background-color: var(--russian-violet-2);
     color: white;
@@ -48,7 +56,7 @@ nav > a:hover {
 
 /* Dropdown menu button, code from w3schools.com*/
 .dropbtn {
-    background-color: var(--mauve);
+    background-color: var(--thistle);
     color: black;
     padding: 10px;
     padding-bottom: 0;
@@ -64,7 +72,7 @@ nav > a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: var(--mauve);
     min-width: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -109,10 +117,12 @@ body {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
-    align-items: center;
-    background-color: var(--mauve);
+    /* align-items: center; */
+    background-color: var(--thistle);
 }
 
+
+/* main section on page */
 main {
     min-height: 85dvh; 
     width: 100dvw;
@@ -122,11 +132,12 @@ main {
     align-items: center;
 }
 
+/* "everything" in main */
 main > * {
     margin: 0.5em;
 }
 
-
+/* Links in main*/
 main > a {
     margin: 0;
     color: var(--tekhelet);
@@ -135,7 +146,7 @@ main > a {
     align-items: center;
 }
 
-
+/* Links when hovered in main*/
 main > a:hover {
     color: white;
     background-color: var(--russian-violet-2);
@@ -144,17 +155,16 @@ main > a:hover {
     padding-bottom: 0.25em;
 }
 
-
+/* Image in main*/
 main > img {
     height: 40dvh;
     width: auto;
     border-radius: 50%;
     margin: 1em; 
     object-fit: cover;
-   
 }
 
-
+/* Paragraph/text in main*/
 main > p {
     font-size: medium;
     margin-left: 5em;
@@ -162,7 +172,7 @@ main > p {
     margin-bottom: 1em;
 }
 
-
+/* Title/'Hi!' in main*/
 main > h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -181,3 +191,18 @@ main > h1 {
 } 
 
 
+main > .intro {
+    background-color: var(--mauve);
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2em;
+    padding: 2em;
+    box-shadow: 20px 20px 10px var(--russian-violet-2);
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 3em;
+}
