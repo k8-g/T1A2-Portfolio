@@ -1,3 +1,5 @@
+
+/* Colour palette */
 :root {
     --russian-violet: #10002bff;
     --russian-violet-2: #240046ff;
@@ -14,6 +16,7 @@
     margin: 0;
 }
 
+/* Header/Title of page */
 header {
     display: flex; 
     font-family: 'Courier New', Courier, monospace;
@@ -23,6 +26,7 @@ header {
     margin-top: 2dvh;
 }
 
+/* Nav bar*/
 nav {
     margin-right: 2vw;
     margin-top: -1vw;
@@ -32,6 +36,7 @@ nav {
     font-size: small;
 }
 
+/* Nav bar links */
 nav > a { 
     text-decoration: none; 
     color: rgb(8, 8, 8); 
@@ -39,11 +44,11 @@ nav > a {
     border-radius: 0.25em; 
 } 
 
+/* Colour of links on hover */
 nav > a:hover {
     background-color: var(--russian-violet-2);
     color: white;
 }
-
 
 
 /* Dropdown menu button, code from w3schools.com*/
@@ -103,7 +108,7 @@ nav > a:hover {
 }
 
 
-
+/* Entire page */
 body {
     display: flex;
     flex-direction: column;
@@ -113,6 +118,7 @@ body {
     background-color: var(--mauve);
 }
 
+/* main section on page */
 main {
     min-height: 85dvh; 
     width: 100dvw;
@@ -122,11 +128,12 @@ main {
     align-items: center;
 }
 
+/* "everything" in main */
 main > * {
     margin: 0.5em;
 }
 
-
+/* Links in main*/
 main > a {
     margin: 0;
     color: var(--tekhelet);
@@ -135,7 +142,7 @@ main > a {
     align-items: center;
 }
 
-
+/* Links when hovered in main*/
 main > a:hover {
     color: white;
     background-color: var(--russian-violet-2);
@@ -144,7 +151,7 @@ main > a:hover {
     padding-bottom: 0.25em;
 }
 
-
+/* Image in main*/
 main > img {
     height: 30dvh;
     width: auto;
@@ -153,7 +160,7 @@ main > img {
     object-fit: cover;
 }
 
-
+/* Paragraph/text in main*/
 main > p {
     font-size: medium;
     margin-left: 5em;
@@ -161,12 +168,12 @@ main > p {
     margin-bottom: 1em;
 }
 
-
+/* Title/'Hi!' in main*/
 main > h1 {
     text-align: center;
 }
 
-
+/* Footer/text at bottom of pages */
   footer {
     background-color:var(--mauve);
     height: 5dvh;
@@ -177,7 +184,7 @@ main > h1 {
     align-items: center;
 } 
 
-
+/* Button to click to 'About' page */
 .button {
     background-color: var(--amethyst); 
     border: white;
@@ -189,15 +196,12 @@ main > h1 {
     display: inline-block;
     font-size: 16px;
     border-radius: 0.5em;
-
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-
-    /* width: 10%; */
-    /* table-layout: fixed; */
   }
 
+  /* Button behaviour when hovered over */
   .button:hover {
     background-color: var(--persian-indigo);
     border: white;
