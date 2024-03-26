@@ -181,11 +181,10 @@ main > a {
 main > img {
     height: 30dvh;
     width: auto;
-    border-radius: 50%;
+    border-radius: 10em;
     margin: 2em; 
     object-fit: cover;
-    
-}
+    box-shadow: 20px 20px 10px var(--mauve)}
 
 
 /* main > p {
@@ -196,9 +195,10 @@ main > img {
 } */
 
 
-/* main > h1 {
+main > h2 {
     text-align: center;
-} */
+    font-family: 'Courier New', Courier, monospace;
+}
 
 
  

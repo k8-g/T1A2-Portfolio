@@ -187,9 +187,10 @@ main > a:hover {
 main > img {
     height: 40dvh;
     width: auto;
-    border-radius: 50%;
+    border-radius: 10em;
     margin: 1em; 
     object-fit: cover;
+    box-shadow: 20px 20px 10px var(--mauve);
 }
 
 /* Paragraph/text in main*/
