@@ -181,10 +181,11 @@ main > a {
 main > img {
     height: 30dvh;
     width: auto;
-    border-radius: 10em;
+    border-radius: 7.5em;
     margin: 2em; 
     object-fit: cover;
-    box-shadow: 20px 20px 10px var(--mauve)}
+    box-shadow: 20px 20px 10px var(--mauve)
+}
 
 
 /* main > p {
@@ -246,4 +247,5 @@ main > h2 {
     display: flex;
     justify-content:  center;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
 } 

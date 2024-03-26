@@ -199,22 +199,36 @@ main > img {
 }
 
 
-
-
 /* Paragraph/text in main*/
-main > p {
+/* main > p {
     font-size: medium;
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 1em;
-}
+} */
 
 /* Title/'Hi!' in main*/
-main > h1 {
+/* main > h1 {
     text-align: center;
+} */
+
+/* Text container */
+main > .intro {
+    background-color: var(--mauve);
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2em;
+    padding: 2em;
+    box-shadow: 20px 20px 10px var(--russian-violet-2);
 }
 
-
+main >.intro > h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 /* Button to click to 'About' page */
 .button {
@@ -258,20 +272,9 @@ footer {
     display: flex;
     justify-content:  center;
     align-items: center;
-   
+    font-family: 'Courier New', Courier, monospace;
+    background-color:var(--mauve);
 } 
   
 
-main > .intro {
-    background-color: var(--mauve);
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content:center;
-    align-items: center;
-    text-align: center;
-    border-radius: 2em;
-    padding: 2em;
-    box-shadow: 20px 20px 10px var(--russian-violet-2);
-    
-}
+
