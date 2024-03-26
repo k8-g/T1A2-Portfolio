@@ -28,6 +28,8 @@ nav {
     margin-top: -1vw;
     position: absolute;
     right: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
 }
 
 nav > a { 
