@@ -16,7 +16,7 @@
     margin: 0;
 }
 
-/* Header/Title of page */
+/* Header/Top of page */
 header {
     display: flex; 
     font-family: 'Courier New', Courier, monospace;
@@ -320,6 +320,77 @@ main {
 		margin: 1em;
 		
 	}
+
+/* testing submenu */
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      ul:hover {
+        overflow: visible;
+      }
+      li {
+        position: relative;
+        float: right;
+        background-color: #17B0FF;
+      }
+      li:hover {
+        background-color: #189BDF;
+      }
+      a {
+        display: block;
+        padding: 10px 20px;
+        color: #fff;
+        
+        text-decoration: none;
+      }
+      
+      /* second level */
+      ul ul {
+        max-height: 0;
+        transition: max-height 1s;
+        border-radius: 1em;
+      }
+      ul li:hover ul {
+        max-height: 999px;
+      }
+      ul ul li {
+        float: none;
+        background-color: #ee54e4;
+      }
+      ul ul li:hover {
+        background-color: #1289C7;
+      }
+      
+
+
+      /* third level */
+      ul ul ul {
+        position: absolute;
+        width: 0;
+        top: 0;
+        right: 100%;
+        transition: width 0.5s;
+        border-radius: 1em;
+      }
+      ul ul li:hover ul {
+        width: 100%;
+      }
+      ul ul ul li {
+        background-color: var(--amethyst);
+        
+      }
+      ul ul ul li:hover {
+        background-color: #C77115;
+      }
+
+
+
+
+    
 }
 
 

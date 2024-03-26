@@ -1,3 +1,4 @@
+/* Colour palette */
 :root {
     --russian-violet: #10002bff;
     --russian-violet-2: #240046ff;
@@ -15,6 +16,7 @@
     margin: 0;
 }
 
+/* Header/Top of page */
 header {
     display: flex; 
     font-family: 'Courier New', Courier, monospace;
@@ -54,7 +56,7 @@ header {
   100% { transform: translateY(0); }
 }
 
-
+/* Nav bar*/
 nav {
     margin-right: 2vw;
     margin-top: -1vw;
@@ -62,8 +64,9 @@ nav {
     right: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+    transform: translateX(-20px) translateY(5px);
 }
-
+/* Nav bar links */
 nav > a { 
     text-decoration: none; 
     color: rgb(8, 8, 8); 
@@ -71,6 +74,7 @@ nav > a {
     border-radius: 0.25em; 
 } 
 
+/* Colour of links on hover */
 nav > a:hover {
     background-color: var(--russian-violet-2);
     color: white;
@@ -94,7 +98,7 @@ nav > a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: var(--mauve);
     min-width: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -214,7 +218,7 @@ main > h1 {
 
 
 .projectPreview > img {
-	height: 30dvh;
+	height: 20dvh;
 	border-radius: 1em;
 	
 }
@@ -235,6 +239,9 @@ main > h1 {
 	box-shadow: 0.5em 0.5em var(--french-violet);
 }
 
+.projectPreview > h3{
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .projectPreview:hover {
 	/* border-radius: 0.5em; */
