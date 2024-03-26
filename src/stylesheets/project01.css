@@ -135,13 +135,10 @@ nav > a:hover {
 
 
 body {
-    display: flex;
-    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     align-items: center;
-    background-color: var(--mauve);
-
+    background-color: var(--thistle);
 }
 
 
