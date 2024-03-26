@@ -1,3 +1,4 @@
+/* Colour palette */
 :root {
     --russian-violet: #10002bff;
     --russian-violet-2: #240046ff;
@@ -7,6 +8,7 @@
     --amethyst: #9d4eddff;
     --heliotrope: #c77dffff;
     --mauve: #C698FF;
+    --thistle: #E1C8F8;
     }  
 
 
@@ -14,23 +16,59 @@
     margin: 0;
 }
 
+/* Header/Title of page */
 header {
     display: flex; 
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    justify-content:left;
+    align-items: center;    
     margin-top: 2dvh;
+    padding-top: .25em;
+    color: var(--persian-indigo)
 }
 
+/* Purple heart which links to home page */
+.header-icon {
+    border-bottom: 2px solid var(--persian-indigo);
+    display: flex;
+    /* height: 10dvh; */
+    width: 100%;
+    padding-left: 2em;
+    padding-bottom: .25em;
+}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+/* Bounces on hover */
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+
+/* Nav bar*/
 nav {
     margin-right: 2vw;
     margin-top: -1vw;
     position: absolute;
     right: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    transform: translateX(-20px) translateY(5px);
 }
 
+/* Nav bar links */
 nav > a { 
     text-decoration: none; 
     color: rgb(8, 8, 8); 
@@ -38,6 +76,7 @@ nav > a {
     border-radius: 0.25em; 
 } 
 
+/* Colour of links on hover */
 nav > a:hover {
     background-color: var(--russian-violet-2);
     color: white;
@@ -47,10 +86,8 @@ nav > a:hover {
 
 /* Dropdown menu button, code from w3schools.com*/
 .dropbtn {
-    background-color: var(--mauve);
+    background-color: var(--thistle);
     color: black;
-    padding: 10px;
-    padding-bottom: 0;
     font-size: 16px;
     border: none;
   }
@@ -63,7 +100,7 @@ nav > a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: var(--mauve);
     min-width: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -108,12 +145,11 @@ body {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
-    align-items: center;
-    background-color: var(--mauve);
-
+    
+    background-color: var(--thistle);
 }
 
-
+/* main section on page */
 main {
     min-height: 85dvh; 
     width: 100dvw;
@@ -128,7 +164,7 @@ main > * {
     margin: 0.5em;
 }
 
-
+/* Links in main*/
 main > a {
     margin: 0;
     color: var(--tekhelet);
@@ -137,7 +173,7 @@ main > a {
     align-items: center;
 }
 
-
+/* Links when hovered in main*/
 main > a:hover {
     color: white;
     background-color: var(--russian-violet-2);
@@ -146,7 +182,7 @@ main > a:hover {
     padding-bottom: 0.25em;
 }
 
-
+/* Image in main*/
 main > img {
     height: 40dvh;
     width: auto;
@@ -155,9 +191,9 @@ main > img {
     object-fit: cover;
 }
 
-
+/* Paragraph/text in main*/
 main > p {
-    font-size: small;
+    font-size: medium;
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 1em;
@@ -209,6 +245,10 @@ main > h3 {
 	border-radius: 2em;
 	/* filter: drop-shadow(1em 1em 5px var(--purple-heart-600)); */
 	box-shadow: 0.5em 0.5em var(--french-violet);
+}
+
+.projectPreview >h3 {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 

@@ -22,9 +22,37 @@ header {
     justify-content:left;
     align-items: center;    
     margin-top: 2dvh;
-    padding-left: 2em;
     padding-top: .25em;
     color: var(--persian-indigo)
+}
+
+/* Purple heart which links to home page */
+.header-icon {
+    border-bottom: 2px solid var(--persian-indigo);
+    display: flex;
+    /* height: 10dvh; */
+    width: 100%;
+    padding-left: 2em;
+    padding-bottom: .25em;
+}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+/* Bounces on hover */
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
 }
 
 /* Nav bar*/
@@ -58,8 +86,8 @@ nav > a:hover {
 .dropbtn {
     background-color: var(--thistle);
     color: black;
-    padding: 10px;
-    padding-bottom: 0;
+    /* padding: 10px;
+    padding-bottom: 0; */
     font-size: 16px;
     border: none;
   }
