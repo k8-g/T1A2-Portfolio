@@ -60,6 +60,8 @@ main > img {
 	border-radius: 0.5em;
     text-decoration: none; 
     color: var(--russian-violet-2);
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
 }
 
 
