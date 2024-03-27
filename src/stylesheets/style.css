@@ -1,4 +1,6 @@
 
+/* Main stylesheet for whole site & home page */
+
 /* Colour palette */
 :root {
     --russian-violet: #10002bff;
@@ -25,7 +27,7 @@ header {
     align-items: center;    
     margin-top: 2dvh;
     padding-top: .25em;
-    color: var(--persian-indigo);
+    color: var(--persian-indigo)
 }
 
 
@@ -59,9 +61,7 @@ header {
 }
 
 
-
-
-/* Nav bar*/
+/* Nav bar positioning*/
 nav {
     margin-right: 2vw;
     margin-top: -1vw;
@@ -141,19 +141,81 @@ nav > a:hover {
 }
 
 
+/* Nav bar dropdown menus appearance */
+/* First layer of menu */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--mauve);
+    border-radius: 1em;
+  }
+
+
+  ul:hover {
+    overflow: visible;
+    width: auto;
+  }
+
+  li {
+    position: relative;
+    float: left;
+    border-radius: 1em;
+    width: auto;
+  }
+
+  li:hover {
+    border-top-right-radius: 1em;
+    width: auto;
+  }
+
+  a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    width: auto;
+  }
+  
+  /* Second layer of dropdown menu */
+  ul ul {
+    position: absolute;
+    width: 0;
+    top: 0;
+    right: 100%;
+    transition: width 0.5s;
+    border-radius: 1em;
+    background-color: var(--amethyst); 
+  }
+
+  ul li:hover ul {
+    width: 108%;
+  }
+  
+  ul ul li {
+    background-color: var(--amethyst); 
+  }
+
+  ul ul li:hover {
+    background-color: var(--russian-violet-2);
+  }
+  
+
+
+
+
+
+
+
 /* Entire page */
 body {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
-    
     background-color: var(--thistle);
 }
-
-
-
-
 
 
 /* main section on page */
@@ -200,17 +262,17 @@ main > img {
 
 
 /* Paragraph/text in main*/
-/* main > p {
+main > p {
     font-size: medium;
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 1em;
-} */
+}
 
 /* Title/'Hi!' in main*/
-/* main > h1 {
+main > h1 {
     text-align: center;
-} */
+}
 
 /* Text container */
 main > .intro {
