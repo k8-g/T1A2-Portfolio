@@ -22,8 +22,9 @@ main > img {
 }
 
 .projectPreview > img {
-	height: 20dvh;
 	border-radius: 1em;
+	max-height: auto;
+	max-width: 60dvw;
 	
 }
 
@@ -110,9 +111,16 @@ main {
 	}
 
 	.projectPreview {
-		width: 30dvw;
+		/* width: 30dvw; */
 		margin: 1em;
 		
+	}
+
+	.projectPreview > img {
+		/* height: auto; */
+		max-height: auto;
+		max-width: 60dvw;
+		border-radius: 1em;
 	}
 }
 
