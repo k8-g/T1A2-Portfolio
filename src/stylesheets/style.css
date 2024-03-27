@@ -334,13 +334,14 @@ main >.intro > h1 {
 footer {
     height: 5dvh;
     width: 100dvw; 
-    text-align: center;
+    
     display: flex;
     justify-content:  center;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
     background-color:var(--mauve);
 } 
-  
 
+
+  
 
