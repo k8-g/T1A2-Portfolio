@@ -322,75 +322,117 @@ main {
 	}
 
 /* testing submenu */
+/* First layer */
     ul {
         margin: 0;
         padding: 0;
         list-style: none;
         overflow: hidden;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: var(--mauve);
+        border-radius: 1em;
+        
+        
       }
+
+
       ul:hover {
         overflow: visible;
+        width: auto;
       }
+
       li {
         position: relative;
-        float: right;
-        background-color: #17B0FF;
+        float: left;
+        /* background-color: var(--mauve); */
+        border-radius: 1em;
+        /* width:max-content; */
+        width: auto;
       }
+
       li:hover {
-        background-color: #189BDF;
+        /* background-color: var(--mauve); */
+        border-top-right-radius: 1em;
+        width: auto;
+        
       }
+
       a {
         display: block;
         padding: 10px 20px;
         color: #fff;
         
         text-decoration: none;
+        width: auto;
+        
       }
       
       /* second level */
       ul ul {
-        max-height: 0;
+        /* max-height: 0;
         transition: max-height 1s;
         border-radius: 1em;
-      }
-      ul li:hover ul {
-        max-height: 999px;
-      }
-      ul ul li {
-        float: none;
-        background-color: #ee54e4;
-      }
-      ul ul li:hover {
-        background-color: #1289C7;
-      }
-      
+        background-color: #ee54e4; */
 
-
-      /* third level */
-      ul ul ul {
         position: absolute;
         width: 0;
         top: 0;
         right: 100%;
         transition: width 0.5s;
         border-radius: 1em;
-      }
-      ul ul li:hover ul {
-        width: 100%;
-      }
-      ul ul ul li {
         background-color: var(--amethyst);
         
       }
-      ul ul ul li:hover {
-        background-color: #C77115;
+
+      ul li:hover ul {
+        /* max-height: 999px; */
+        
+        width: 108%;
+        
+
       }
+      
+      ul ul li {
+        /* float: none;
+        background-color: #ee54e4; */
+
+        background-color: var(--amethyst);
+        
+      }
+
+      ul ul li:hover {
+        background-color: var(--russian-violet-2);
+
+      }
+      
+
+
+      /* third level */
+      /* ul ul ul {
+        position: absolute;
+        width: 0;
+        top: 0;
+        right: 100%;
+        transition: width 0.5s;
+        border-radius: 1em;
+        background-color: var(--amethyst);
+      } */
+
+      /* ul ul li:hover ul {
+        /* width: 100%; */
+      
+      /* ul ul ul li {
+        background-color: var(--amethyst);
+        
+      } */
+      /* ul ul ul li:hover {
+        background-color: #C77115;
+      } */
 
 
 
 
     
-}
+    }
 
 
