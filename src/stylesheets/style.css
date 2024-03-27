@@ -272,6 +272,7 @@ main > p {
 /* Title/'Hi!' in main*/
 main > h1 {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Text container */
