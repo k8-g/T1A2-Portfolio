@@ -1,3 +1,5 @@
+/* Projects & Blogs stylesheet overrides */
+
 /* Colour palette */
 :root {
     --russian-violet: #10002bff;
@@ -11,174 +13,6 @@
     --thistle: #E1C8F8;
     }  
 
-
-* {
-    margin: 0;
-}
-
-/* Header/Top of page */
-header {
-    display: flex; 
-    font-family: 'Courier New', Courier, monospace;
-    justify-content:left;
-    align-items: center;    
-    margin-top: 2dvh;
-    padding-top: .25em;
-    color: var(--persian-indigo)
-}
-
-/* Purple heart which links to home page */
-.header-icon {
-    border-bottom: 2px solid var(--persian-indigo);
-    display: flex;
-    /* height: 10dvh; */
-    width: 100%;
-    padding-left: 2em;
-    padding-bottom: .25em;
-}
-
-.child {
-    align-self: flex-end;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom;
-}
-
-/* Bounces on hover */
-.bounce:hover {
-    animation-name: bounce;
-    animation-timing-function: ease;
-}
-
-@keyframes bounce {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-20px); }
-  100% { transform: translateY(0); }
-}
-
-/* Nav bar*/
-nav {
-    margin-right: 2vw;
-    margin-top: -1vw;
-    position: absolute;
-    right: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
-    transform: translateX(-20px) translateY(5px);
-}
-/* Nav bar links */
-nav > a { 
-    text-decoration: none; 
-    color: rgb(8, 8, 8); 
-    padding: 0.25em;  
-    border-radius: 0.25em; 
-} 
-
-/* Colour of links on hover */
-nav > a:hover {
-    background-color: var(--russian-violet-2);
-    color: white;
-}
-
-
-
-/* Dropdown menu button, code from w3schools.com*/
-.dropbtn {
-    background-color: var(--thistle);
-    color: black;
-    font-size: 16px;
-    border: none;
-  }
-
-  .dropdown {
-    position:relative;
-    display: inline-block;
-  }
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: var(--mauve);
-    min-width: 5px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    justify-content: left;
-    text-align: left;
-  }
-
-  /* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 12px;
-    text-decoration: none;
-    display: block;
-   
-  }
-
-  /* Color of dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: var(--tekhelet);
-    color: white;
-    border-radius: 1em;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-    border-radius: 1em;
-    justify-content:end;
-    width:fit-content;
-}
-
-/* Background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    border-radius: 1em;
-    color: white;
-}
-
-
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--thistle);
-}
-
-
-main {
-    min-height: 85dvh; 
-    width: 100dvw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-main > * {
-    margin: 0.5em;
-}
-
-
-main > a {
-    margin: 0;
-    color: var(--tekhelet);
-    font-size: large;
-    justify-content: center;
-    align-items: center;
-}
-
-
-main > a:hover {
-    color: white;
-    background-color: var(--russian-violet-2);
-    border-radius: 0.5em;
-    padding: 0.25em;
-    padding-bottom: 0.25em;
-}
-
-
 main > img {
     height: 40dvh;
     width: auto;
@@ -186,36 +20,6 @@ main > img {
     margin: 2em; 
     object-fit: cover;
 }
-
-
-main > p {
-    font-size: small;
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-bottom: 1em;
-}
-
-
-main > h1 {
-    text-align: center;
-}
-
-
-
-
-  footer {
-    background-color:var(--mauve);
-    height: 5dvh;
-    width: 100dvw; 
-    text-align: center;
-    display: flex;
-    justify-content:  center;
-    align-items: center;
-} 
-
-
-
-
 
 .projectPreview > img {
 	height: 20dvh;
@@ -235,7 +39,6 @@ main > h1 {
 	padding: 1em;
 	background-color: var(--heliotrope);
 	border-radius: 2em;
-	/* filter: drop-shadow(1em 1em 5px var(--purple-heart-600)); */
 	box-shadow: 0.5em 0.5em var(--french-violet);
 }
 
