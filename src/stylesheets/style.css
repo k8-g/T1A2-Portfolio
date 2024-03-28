@@ -28,6 +28,7 @@ header {
     /* padding-top: .25em; */
     color: var(--persian-indigo);
     background-color: var(--heliotrope);
+    padding-bottom: -10dvh;
 }
 
 
