@@ -1,0 +1,348 @@
+
+/* Main stylesheet for whole site & home page */
+
+/* Colour palette */
+:root {
+    --russian-violet: #10002bff;
+    --russian-violet-2: #240046ff;
+    --persian-indigo: #3c096cff;
+    --tekhelet: #5a189aff;
+    --french-violet: #7b2cbfff;
+    --amethyst: #9d4eddff;
+    --heliotrope: #c77dffff;
+    --mauve: #C698FF;
+    --thistle: #E1C8F8;
+    }  
+
+
+* {
+    margin: 0;
+}
+
+/* Header/Title of page */
+header {
+    display: flex; 
+    font-family: 'Courier New', Courier, monospace;
+    justify-content:left;
+    align-items: center;    
+    /* margin-top: 2dvh; */
+    padding-top: .25em;
+    color: var(--persian-indigo);
+    background-color: var(--french-violet);
+}
+
+
+/* Purple heart which links to home page */
+.header-icon {
+    border-bottom: 2px solid var(--persian-indigo);
+    display: flex;
+    /* height: 10dvh; */
+    width: 100%;
+    padding-left: 2em;
+    padding-bottom: .25em;
+}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+/* Bounces on hover */
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+
+/* Nav bar positioning*/
+nav {
+    margin-right: 1vw;
+    margin-top: -1vw;
+    position: absolute;
+    right: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    transform: translateX(-20px) translateY(5px);
+}
+
+/* Nav bar links */
+nav > a { 
+    text-decoration: none; 
+    color: rgb(8, 8, 8); 
+    padding: 0.25em;  
+    border-radius: 0.25em; 
+} 
+
+/* Colour of links on hover */
+nav > a:hover {
+    background-color: var(--russian-violet-2);
+    color: white;
+}
+
+
+/* Dropdown menu button, code from w3schools.com*/
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropdown {
+    position:relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--mauve);
+    min-width: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    justify-content: left;
+    text-align: left;
+  }
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: var(--tekhelet);
+    color: white;
+    border-radius: 1em;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 1em;
+    justify-content:end;
+    width:fit-content;
+}
+
+/* Background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    border-radius: 1em;
+    color: white;
+}
+
+
+/* Nav bar dropdown menus appearance */
+/* First layer of menu */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--mauve);
+    border-radius: 1em;
+  }
+
+
+  ul:hover {
+    overflow: visible;
+    width: auto;
+  }
+
+  li {
+    position: relative;
+    float: left;
+    border-radius: 1em;
+    width: auto;
+  }
+
+  li:hover {
+    border-top-right-radius: 1em;
+    width: auto;
+  }
+
+  a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    width: auto;
+  }
+  
+  /* Second layer of dropdown menu */
+  ul ul {
+    position: absolute;
+    width: 0;
+    top: 0;
+    right: 100%;
+    transition: width 0.5s;
+    border-radius: 1em;
+    background-color: var(--amethyst); 
+  }
+
+  ul li:hover ul {
+    width: 108%;
+  }
+  
+  ul ul li {
+    background-color: var(--amethyst); 
+  }
+
+  ul ul li:hover {
+    background-color: var(--russian-violet-2);
+  }
+  
+
+
+
+
+
+
+
+/* Entire page */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--thistle);
+}
+
+
+/* main section on page */
+main {
+    min-height: 85dvh; 
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* "everything" in main */
+main > * {
+    margin: 0.5em;
+}
+
+/* Links in main*/
+main > a {
+    margin: 0;
+    color: var(--tekhelet);
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Links when hovered in main*/
+main > a:hover {
+    color: white;
+    background-color: var(--russian-violet-2);
+    border-radius: 0.5em;
+    padding: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+/* Image in main*/
+main > img {
+    height: 30dvh;
+    width: auto;
+    border-radius: 50%;
+    margin: 2em; 
+    object-fit: cover;
+}
+
+
+/* Paragraph/text in main*/
+main > p {
+    font-size: medium;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 1em;
+}
+
+/* Title/'Hi!' in main*/
+main > h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Text container */
+main > .intro {
+    background-color: var(--mauve);
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2em;
+    padding: 1em;
+    box-shadow: 20px 20px 10px var(--russian-violet-2);
+    margin-left: 2em;
+    margin-right: 2em;
+    
+}
+
+main >.intro > h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Button to click to 'About' page */
+.button {
+    background-color: var(--amethyst); 
+    border: white;
+    border-style:groove;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0.5em;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  /* Button behaviour when hovered over */
+  .button:hover {
+    background-color: var(--persian-indigo);
+    border: white;
+    border-style:outset;
+    color: white;
+  }
+
+  /* Determines how button looks while being clicked */
+  .button:active {
+    background-color: var(--persian-indigo);
+    border: white;
+    border-style:inset;
+    color: white;
+  }
+
+  
+/* Footer/text at bottom of pages */
+footer {
+    height: 5dvh;
+    width: 100dvw; 
+    
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:var(--mauve);
+} 
+
+
+  
+
