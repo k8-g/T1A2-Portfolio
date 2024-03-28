@@ -6,8 +6,8 @@
   right: 0;
   padding-right: 1em;
   background-color: var(--heliotrope);
-  
 }
+
 
 /* .nav-links ul li ul li {
   width:100%;
@@ -40,15 +40,27 @@
     width: 100%;
   }
 
+  .nav-links ul a:hover {
+    color: white;
+  }
+
 
   .nav-links ul li ul {
     right: 0;
-    margin-top: 4dvh;
+    margin-top: 2dvh;
     transform: translateX(10px) translateY(5px);
     background-color: var(--heliotrope);
     transition: 0.3s ease-in-out;
     display: block;
   }
+
+  .nav-links ul li ul a:hover{
+    background-color: var(--persian-indigo);
+    border-radius: 0.6em;
+    width: auto;
+  }
+
+
 
   .nav-links ul li ul li {
     background-color: transparent;

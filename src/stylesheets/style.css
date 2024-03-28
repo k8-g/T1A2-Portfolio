@@ -143,14 +143,14 @@ nav > a:hover {
 .dropdown-content a:hover {
     background-color: var(--tekhelet);
     color: white;
-    border-radius: 1em;
+    border-radius: 0.75em;
     width: max-content;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
-    border-radius: 1em;
+    border-radius: 0.75em;
     justify-content:end;
     width:fit-content;
 }
@@ -193,7 +193,7 @@ ul {
     overflow: hidden;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
-    border-radius: 1em;
+    border-radius: 0.75em;
   }
 
 
@@ -205,7 +205,7 @@ ul {
   li {
     position: relative;
     float: left;
-    border-radius: 1em;
+    border-radius: 0.75em;
     width: max-content;
   }
 
@@ -223,7 +223,7 @@ ul {
     top: 0;
     right: 100%;
     transition: height 0.5s;
-    border-radius: 1em;
+    border-radius: 0.75em;
     background-color: transparent; 
   }
 
@@ -283,7 +283,7 @@ main > a {
 main > a:hover {
     color: white;
     background-color: var(--russian-violet-2);
-    border-radius: 0.5em;
+    border-radius: 0.75em;
     padding: 0.25em;
     padding-bottom: 0.25em;
 }
