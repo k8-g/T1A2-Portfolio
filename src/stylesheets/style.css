@@ -213,14 +213,6 @@ ul {
   }
 
  
-
-  /* a {
-    display: block; 
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    width: auto;
-  } */
   
   /* Second layer of dropdown menu */
   ul ul {
@@ -239,10 +231,7 @@ ul {
 
   }
   
-  /* ul ul li {
-    background-color: var(--amethyst); 
-  } */
-
+ 
   ul ul li:hover {
     background-color: var(--russian-violet-2);
   }
