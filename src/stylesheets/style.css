@@ -25,11 +25,10 @@ header {
     font-family: 'Courier New', Courier, monospace;
     justify-content:left;
     align-items: center;    
-    /* padding-top: .25em; */
     color: var(--persian-indigo);
     background-color: var(--heliotrope);
-    padding-bottom: -10dvh;
     border-bottom: 1px solid var(--persian-indigo);
+    padding-bottom: -100em;
 }
 
 
