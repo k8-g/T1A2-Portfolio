@@ -25,7 +25,6 @@ header {
     font-family: 'Courier New', Courier, monospace;
     justify-content:left;
     align-items: center;    
-    /* margin-top: 2dvh; */
     padding-top: .25em;
     color: var(--persian-indigo);
     background-color: var(--heliotrope);
