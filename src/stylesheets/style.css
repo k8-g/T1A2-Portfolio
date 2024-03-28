@@ -28,7 +28,7 @@ header {
     /* margin-top: 2dvh; */
     padding-top: .25em;
     color: var(--persian-indigo);
-    background-color: var(--amethyst);
+    background-color: var(--heliotrope);
 }
 
 
@@ -330,10 +330,6 @@ main >.intro > h1 {
     color: white;
   }
 
-.date {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: small;
-}
 
 
 
