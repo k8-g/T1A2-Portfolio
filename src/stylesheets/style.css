@@ -34,29 +34,21 @@ header {
 /* Icon which links to home page */
 .header-icon {
   padding-left: 1dvh;
-  padding-top: 1dvh;
-    
+  padding-top: 0.25dvh;
 }
 
-.child {
-    align-self: flex-end;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom;
+/* Home icon in header */
+.home {
+  width: 50px;
+  height: 50px;
+  background: url("../assets/icons8-home-purple.png") no-repeat;
+  
 }
 
-/* Bounces on hover */
-.bounce:hover {
-    animation-name: bounce;
-    animation-timing-function: ease;
+/* Changes home icon to white when hovered */
+.home:hover {
+  background: url("../assets/icons8-home-white.png") no-repeat;
 }
-
-@keyframes bounce {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-20px); }
-  100% { transform: translateY(0); }
-}
-
 
 /* Nav bar positioning*/
 nav {
