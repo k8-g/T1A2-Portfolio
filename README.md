@@ -18,6 +18,8 @@ The purpose of this website is to show what I have learnt over the last few week
 
 ### Sitemap
 
+- ![Sitemap](/docs/Sitemap%20&%20Wireframes/T1A2_Portfolio%20Sitemap.png)
+
 ## Target Audience
 
 ## Tech Stack
