@@ -296,7 +296,7 @@ main >.intro > h1 {
 
 /* Button to click to 'About' page */
 .button {
-    background-color: var(--amethyst); 
+    background-color: var(--french-violet); 
     border: white;
     border-style:groove;
     color: white;
