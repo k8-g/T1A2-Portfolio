@@ -6,15 +6,20 @@
   right: 0;
   padding-right: 1em;
   background-color: var(--heliotrope);
+  
 }
 
-.nav-links ul li ul li {
+/* .nav-links ul li ul li {
   width:100%;
-}
+} */
 
-.nav-links ul li ul li a {
+/* .nav-links ul li ul li a {
   background-color: var(--amethyst) ;
 }
+ */
+
+
+
 
 
 
@@ -35,25 +40,6 @@
     width: 100%;
   }
 
-  .nav-links li {
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
-
-  }
-
- .nav-links ul li ul li a {
-    background-color: transparent;
-    list-style: none;
-    overflow: hidden;
-    padding: 0.5em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-    width: 100%;
-  }
-
-  .nav-links ul li ul li a:hover {
-    color: white;
-  }
 
   .nav-links ul li ul {
     right: 0;
@@ -61,7 +47,29 @@
     transform: translateX(10px) translateY(5px);
     background-color: var(--heliotrope);
     transition: 0.3s ease-in-out;
+    display: block;
   }
+
+  .nav-links ul li ul li {
+    background-color: transparent;
+    width: 100%;
+  }
+
+ .nav-links ul li ul li a {
+    background-color: transparent;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    display: block;
+    padding: 0.25em;
+  }
+
+
+  .nav-links ul li ul li a:hover {
+    color: white;
+  }
+
+
 
 }
 
