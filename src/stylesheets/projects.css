@@ -96,6 +96,18 @@ main {
 	margin: 0;
 }
 
+.date {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: small;
+  }
+
+.published {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: small;
+	text-align: right;
+}
+
+
 /* Desktop view */
 @media screen and (min-width: 600px) {
 	.contentRow {
