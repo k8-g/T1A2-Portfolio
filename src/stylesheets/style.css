@@ -29,15 +29,13 @@ header {
     color: var(--persian-indigo);
     background-color: var(--heliotrope);
     padding-bottom: -10dvh;
+    border-bottom: 1px solid var(--persian-indigo);
 }
 
 
 /* Icon which links to home page */
 .header-icon {
-    border-bottom: 2px solid var(--persian-indigo);
     display: flex;
-    /* height: 10dvh; */
-    width: 100%;
     padding-left: 2em;
     /* padding-bottom: .25em; */
     width: 20dvh;
