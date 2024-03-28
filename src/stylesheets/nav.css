@@ -1,0 +1,134 @@
+/* Nav bar stylesheet overrides*/
+
+
+
+ 
+/* Determines how the buttons look */
+/* .button {
+    background-color: var(--amethyst); 
+    border: white;
+    border-style:groove;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0.5em;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 15%;
+    table-layout: fixed;
+    justify-content: center;
+    align-items: center;
+  } */
+
+   
+/* Determines how the buttons look when hovered over*/
+  /* .button:hover {
+    background-color: var(--persian-indigo);
+    border: white;
+    border-style:outset;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    /*font-size: 16px;
+    border-radius: 0.5em;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 15%;
+    table-layout: fixed;
+    justify-content: center;
+  } */
+
+  /* Determines how buttons looks while being clicked */
+  /* .button:active {
+    background-color: var(--persian-indigo);
+    border: white;
+    border-style:inset;
+    color: white;
+  } */
+
+.nav-links {
+  position: absolute;
+  right: 0;
+  padding-right: 1em;
+  background-color: var(--heliotrope);
+}
+
+.nav-links ul li ul li {
+  width:100%;
+}
+
+.nav-links ul li ul li a {
+  background-color: var(--amethyst) ;
+}
+
+
+
+  /* Desktop view */
+@media only screen and (min-width: 768px) {
+  
+  nav {
+    display:none;
+   }  
+
+
+
+   .nav-links a {
+    padding-left: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: var(--persian-indigo);
+    background-color: var(--heliotrope);
+    text-decoration: none;
+    width: 100%;
+  }
+
+.nav-links li {
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+
+}
+
+ .nav-links ul li ul li a {
+    background-color: transparent;
+    list-style: none;
+    overflow: hidden;
+    padding: 0.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    width: 100%;
+  }
+  .nav-links ul li ul li a:hover {
+    color: white;
+  }
+.nav-links ul li ul {
+  right: 0;
+  margin-top: 4dvh;
+  transform: translateX(10px) translateY(5px);
+  background-color: var(--heliotrope);
+  transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+}
+
+/* Mobile view */
+@media only screen and (max-width: 768px) {
+ 
+ .nav-links {
+  margin-left: 2em;
+ }
+ .nav-links {
+  display:none;
+}
+ 
+}
