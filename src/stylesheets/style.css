@@ -78,7 +78,18 @@ nav > a:hover {
 
 
 
+.menu {
+  width: 50px;
+  height: 50px;
+  background: url("../assets/icons8-menu-40.png") no-repeat;
+ 
 
+}
+
+/* Changes home icon to white when hovered */
+.menu:hover {
+  background: url("../assets/icons8-menu-40-white.png") no-repeat;
+}
 
 
 
@@ -92,6 +103,7 @@ nav > a:hover {
     font-size: 16px;
     border: none;
     margin-right: -2vw;
+    padding-top: 1em;
   }
 
   .dropdown {
