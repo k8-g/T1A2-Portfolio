@@ -37,8 +37,6 @@ header {
 .header-icon {
     display: flex;
     padding-left: 2em;
-    /* padding-bottom: .25em; */
-    width: 20dvh;
 }
 
 .child {
