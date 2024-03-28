@@ -1,35 +1,26 @@
+
+
 /* Nav bar stylesheet overrides for desktop/mobile*/
-
-
-.nav-links {
-  position: absolute;
-  right: 0;
-  padding-right: 1em;
-  background-color: var(--heliotrope);
-}
-
-
-/* .nav-links ul li ul li {
-  width:100%;
-} */
-
-/* .nav-links ul li ul li a {
-  background-color: var(--amethyst) ;
-}
- */
-
-
-
 
 
 
   /* Desktop view */
 @media only screen and (min-width: 768px) {
   
+  /* Hides the mobile nav bar/nav barbutton */
   nav {
     display:none;
    }  
 
+   /* Positions the desktop nav bar */
+   .nav-links {
+    position: absolute;
+    right: 0;
+    padding-right: 1em;
+    background-color: var(--heliotrope);
+  }
+
+   /* Determines how links behave in desktop nav bar */
    .nav-links a {
     padding-left: 1em;
     font-family: 'Courier New', Courier, monospace;
@@ -40,11 +31,12 @@
     width: 100%;
   }
 
+  /* Determines how desktop nav bar hover in dropdown menu behaves */
   .nav-links ul a:hover {
     color: white;
   }
 
-
+/* Second dropdown menu level in desktop nav bar */
   .nav-links ul li ul {
     right: 0;
     margin-top: 2dvh;
@@ -54,6 +46,7 @@
     display: block;
   }
 
+  /* Second level drop down menu link hover behaviour */
   .nav-links ul li ul a:hover{
     background-color: var(--persian-indigo);
     border-radius: 0.6em;
@@ -61,12 +54,13 @@
   }
 
 
-
+/* Second dropdown menu level in desktop nav bar list */
   .nav-links ul li ul li {
     background-color: transparent;
     width: 100%;
   }
 
+  /* Second dropdown menu level in desktop nav bar link behaviour */
  .nav-links ul li ul li a {
     background-color: transparent;
     list-style: none;
@@ -76,22 +70,17 @@
     padding: 0.25em;
   }
 
-
+/* Second level dropdown menu link hover behaviour */
   .nav-links ul li ul li a:hover {
     color: white;
   }
-
-
-
 }
 
 
 /* Mobile view */
 @media only screen and (max-width: 768px) {
- 
-  .nav-links {
-    margin-left: 2em;
-  }
+
+  /* Hides desktop nav bar in mobile view */
   .nav-links {
     display:none;
   }
