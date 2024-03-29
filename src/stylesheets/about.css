@@ -26,57 +26,60 @@ main > .intro {
     margin-bottom: 3em;
 }
 
-main > .split {
-    background-color: white;
-    display: flex;
-    display: row;
-}
+/* Desktop view */
+@media only screen and (min-width: 768px) {
+    main > .split {
+        background-color: white;
+        display: flex;
+        display: row;
+    }
 
-main > .split .split2{
-    background-color: var(--mauve);
-    
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content:center;
-    align-items: center;
-    text-align: center;
-    border-radius: 1.5em;
-    padding: 1em;
-    box-shadow: 20px 20px 10px var(--russian-violet-2);
-    margin-left: 5em;
-    margin-right: 2em;
-    
+    main > .split .split2{
+        background-color: var(--mauve);
+        
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        border-radius: 1.5em;
+        padding: 1em;
+        box-shadow: 20px 20px 10px var(--russian-violet-2);
+        margin-left: 5em;
+        margin-right: 2em;
+        
 
-    margin-bottom: 3em;
-    /* display: flex;
-    display: row; */
-}
+        margin-bottom: 3em;
+        /* display: flex;
+        display: row; */
+    }
 
-main > .split .split3{
-    background-color: var(--mauve);
-    
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content:center;
-    align-items: center;
-    text-align: center;
-    border-radius: 1.5em;
-    padding: 1em;
-    box-shadow: 20px 20px 10px var(--russian-violet-2);
-    margin-left: 1em;
-    margin-right: 5em;
-    
+    main > .split .split3{
+        background-color: var(--mauve);
+        
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        border-radius: 1.5em;
+        padding: 1em;
+        box-shadow: 20px 20px 10px var(--russian-violet-2);
+        margin-left: 1em;
+        margin-right: 5em;
+        
 
-    margin-bottom: 3em;
-    /* display: flex;
-    display: row; */
-}
+        margin-bottom: 3em;
+        /* display: flex;
+        display: row; */
+    }
 
-main > .split .split3 > h2 {
+    main > .split .split3 > h2 {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main > .split .split3 a{
     font-family: 'Courier New', Courier, monospace;
-}
-
-main > .split .split3 a{
-font-family: 'Courier New', Courier, monospace;
-font-weight:bold;
-text-decoration: none;
-color: var(--russian-violet-2)
+    font-weight:bold;
+    text-decoration: none;
+    color: var(--russian-violet-2)
+    }
 }
