@@ -1,4 +1,19 @@
 
+/* About Page Stylesheet overrides */
+
+/* Colour palette */
+:root {
+    --russian-violet: #10002bff;
+    --russian-violet-2: #240046ff;
+    --persian-indigo: #3c096cff;
+    --tekhelet: #5a189aff;
+    --french-violet: #7b2cbfff;
+    --amethyst: #9d4eddff;
+    --heliotrope: #c77dffff;
+    --mauve: #C698FF;
+    --thistle: #E1C8F8;
+    }  
+
 /* Image in main*/
 main > img {
     box-shadow: 20px 20px 10px var(--mauve);
@@ -11,5 +26,57 @@ main > .intro {
     margin-bottom: 3em;
 }
 
+main > .split {
+    background-color: white;
+    display: flex;
+    display: row;
+}
 
-  
+main > .split .split2{
+    background-color: var(--mauve);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1.5em;
+    padding: 1em;
+    box-shadow: 20px 20px 10px var(--russian-violet-2);
+    margin-left: 5em;
+    margin-right: 2em;
+    
+
+    margin-bottom: 3em;
+    /* display: flex;
+    display: row; */
+}
+
+main > .split .split3{
+    background-color: var(--mauve);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1.5em;
+    padding: 1em;
+    box-shadow: 20px 20px 10px var(--russian-violet-2);
+    margin-left: 1em;
+    margin-right: 5em;
+    
+
+    margin-bottom: 3em;
+    /* display: flex;
+    display: row; */
+}
+
+main > .split .split3 > h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main > .split .split3 a{
+font-family: 'Courier New', Courier, monospace;
+font-weight:bold;
+text-decoration: none;
+color: var(--russian-violet-2)
+}

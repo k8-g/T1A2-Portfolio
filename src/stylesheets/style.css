@@ -321,13 +321,18 @@ main > .intro {
     justify-content:center;
     align-items: center;
     text-align: center;
-    border-radius: 2em;
+    border-radius: 1.5em;
     padding: 1em;
     box-shadow: 20px 20px 10px var(--russian-violet-2);
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 5em;
+    margin-right: 5em;
     
 }
+
+main > .intro a:hover {
+  color:white;
+  }
+  
 
 main >.intro > h1 {
     font-family: 'Courier New', Courier, monospace;
