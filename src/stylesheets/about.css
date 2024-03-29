@@ -64,8 +64,6 @@ main > .intro {
 
     main > .split .split2{
         background-color: var(--mauve);
-        
-        font-family: Arial, Helvetica, sans-serif;
         justify-content:center;
         align-items: center;
         text-align: center;
@@ -74,11 +72,10 @@ main > .intro {
         box-shadow: 20px 20px 10px var(--russian-violet-2);
         margin-left: 5em;
         margin-right: 2em;
-        
-
         margin-bottom: 3em;
-        /* display: flex;
-        display: row; */
+    }
+    main > .split .split2 h2 {
+        font-family: 'Courier New', Courier, monospace;
     }
 
     main > .split .split3{
