@@ -28,6 +28,31 @@ main > .intro {
 
 /* Mobile view */
 @media only screen and (max-width: 768px) {
+
+    main > .mobile {
+        background-color: var(--mauve);
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        border-radius: 1.5em;
+        padding: 1em;
+        box-shadow: 20px 20px 10px var(--russian-violet-2);
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-bottom: 3em;
+    }
+
+    main > .mobile > img {
+        width:350px;
+        border-radius: 10em;
+
+    }
+
+    main > .mobile > h2 {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
     main > .intro2{
         background-color: var(--mauve);
         font-family: Arial, Helvetica, sans-serif;
@@ -46,6 +71,8 @@ main > .intro {
         display: none;
     }
 
+
+
 }
 
 
@@ -53,6 +80,10 @@ main > .intro {
 @media only screen and (min-width: 768px) {
 
     main .intro2{
+        display:none;
+    }
+
+    main .mobile {
         display:none;
     }
 
@@ -74,13 +105,19 @@ main > .intro {
         margin-right: 2em;
         margin-bottom: 3em;
     }
+
+    main > .split .split2 > img {
+        max-width: 400px;
+        border-radius: 10em;
+       
+    }
+
     main > .split .split2 h2 {
         font-family: 'Courier New', Courier, monospace;
     }
 
     main > .split .split3{
         background-color: var(--mauve);
-        
         font-family: Arial, Helvetica, sans-serif;
         justify-content:center;
         align-items: center;
@@ -90,11 +127,8 @@ main > .intro {
         box-shadow: 20px 20px 10px var(--russian-violet-2);
         margin-left: 1em;
         margin-right: 5em;
-        
-
         margin-bottom: 3em;
-        /* display: flex;
-        display: row; */
+        width: auto;
     }
 
     main > .split .split3 > h2 {
