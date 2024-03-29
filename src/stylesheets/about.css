@@ -26,8 +26,40 @@ main > .intro {
     margin-bottom: 3em;
 }
 
+/* Mobile view */
+@media only screen and (max-width: 768px) {
+    main > .intro2{
+        background-color: var(--mauve);
+        
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        border-radius: 1.5em;
+        padding: 1em;
+        box-shadow: 20px 20px 10px var(--russian-violet-2);
+        margin-left: 5em;
+        margin-right: 5em;
+    
+        margin-bottom: 3em;
+        display: flex;
+        display: column;
+    }
+
+    .split {
+        display: none;
+    }
+
+}
+
+
 /* Desktop view */
 @media only screen and (min-width: 768px) {
+
+    main .intro2{
+        display:none;
+    }
+
     main > .split {
         background-color: white;
         display: flex;
