@@ -169,10 +169,6 @@ nav > a:hover {
   width: 100%;
 }
 
-/* .dropdown .dropdown-content ul a {
-  width: 100%;
-} */
-
 /* Changes background colour when hovered in drowndown menu */
 .dropdown .dropdown-content ul li a:hover {
   background-color: var(--tekhelet);
@@ -193,8 +189,8 @@ nav > a:hover {
   background-color: var(--tekhelet) ;
 }
 
-/* Nav bar dropdown menus appearance */
-/* First layer of menu */
+/* Nav bar dropdown menus appearance & styling*/
+/* First tier of menu */
 ul {
     margin: 0;
     padding: 0;
@@ -206,13 +202,13 @@ ul {
 
 }
 
-/* Allows second level to be visible when hovered */
+/* Allows second tier to be visible when hovered */
   ul:hover {
     overflow: visible;
     width: auto;
 }
 
-  /* Lines in first layer of menu */
+  /* Lines with links in first tier of menu */
   li {
     position: relative;
     float: left;
@@ -220,13 +216,13 @@ ul {
     width: max-content;
 }
 
-  /* Styles what happens when hovered over first layer of dropdown menu */
+  /* Styles what happens when hovered over lines in first tier of dropdown menu */
   li:hover {
     border-top-right-radius: 1em;
     width: max-content;
 }
 
-  /* Second layer of dropdown menu */
+  /* Second tier of dropdown menu */
   ul ul {
     position: absolute;
     width: 0;
@@ -237,19 +233,19 @@ ul {
     background-color: transparent; 
 }
 
-  /* Makes second level pop out when hoevered over line in first layer*/
+  /* Makes second tier pop out when hovered over relevant line in first tier; eg Projects or Blogs */
   ul li:hover ul {
     width:100%;
     transition: all 0.2s ease-in-out;
 }
   
-  /* Changes background colour when hovered over lines in second layer */
+  /* Changes background colour when hovered over lines in second tier */
   ul ul li:hover {
     background-color: var(--russian-violet-2);
 }
   
 
-/* Entire page's content */
+/* Entire page's content styling */
 body {
     display: flex;
     flex-direction: column;
@@ -258,8 +254,7 @@ body {
     position: relative;
     /* padding-bottom: 5dvh; */
     min-height: 100vh;
-    margin: auto 0;
-
+    margin: auto 0;    
 }
 
 
@@ -298,7 +293,7 @@ main > a:hover {
     padding-bottom: 0.25em;
 }
 
-/* Styles image in main*/
+/* Styles images in main*/
 main > img {
     height: 30dvh;
     width: auto;
