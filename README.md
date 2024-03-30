@@ -53,15 +53,15 @@ Alt text tells the user what the image is supposed to be of, if the image link i
 
 ## Screenshots
 ### Mobile View Wireframes
-Home 
+Home <br>
 ![Home Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Home%20Page%20Mobile%20Wireframe%20Layout.png)
-About 
+About <br>
 ![About Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/About%20Page%20Mobile%20Wireframe%20Layout.png)
-Projects 
+Projects <br>
 ![Projects Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Projects%20Page%20Mobile%20Wireframe%20Layout.png)
-Blogs 
+Blogs <br>
 ![Blogs Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Blogs%20Page%20Mobile%20Wireframe%20Layout.png)
-Contact 
+Contact <br>
 ![Contact Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Contacts%20Page%20Mobile%20Wireframe%20Layout.png)
 
 ### Desktop View Wireframes
