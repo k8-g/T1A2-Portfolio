@@ -44,7 +44,7 @@ main > .intro {
     }
 
     main > .mobile > img {
-        width:60%;
+        width:90%;
         border-radius: 10em;
 
     }
@@ -107,9 +107,8 @@ main > .intro {
     }
 
     main > .split .split2 > img {
-        max-width: 80%;
+        max-width: 90%;
         border-radius: 10em;
-       
     }
 
     main > .split .split2 h2 {
