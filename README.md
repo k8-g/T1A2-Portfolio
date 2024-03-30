@@ -82,6 +82,10 @@ COMING SOON
 
 The site map shows all the available pages on the website. It starts with the Home page, which has a navgination bar that links to the rest of the site. There are also buttons which link to other pages or external site located on some of the pages (Home page, About page, Contacts page and some project pages.)
 
+### Home Page
+- This page is the first page you see, has a navigation menu in the top left corner, which allows you to access the other pages in the site. 
+
+
 ## Tech Stack
 Coding languages used:
 - HTML5
