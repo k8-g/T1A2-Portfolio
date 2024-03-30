@@ -123,7 +123,7 @@ Professional services used in this assignment include:
 - Netlify
 - Figma
 - [Flowchart Maker](https://app.diagrams.net/)
--[Trello](https://trello.com/)
+- [Trello](https://trello.com/)
 
 ### Sources for miscellaneous items
 - Icons from [Icons8](https://icons8.com/)
