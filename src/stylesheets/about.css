@@ -107,7 +107,7 @@ main > .intro {
     }
 
     main > .split .split2 > img {
-        max-width: 400px;
+        max-width: 80%;
         border-radius: 10em;
        
     }
