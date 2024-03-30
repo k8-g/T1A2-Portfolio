@@ -55,7 +55,7 @@ Alt text tells the user what the image is supposed to be of, if the image link i
 ### Mobile View Wireframes
 
 - [Link to my wireframes page](https://k8g-portfolio.netlify.app/pages/wireframes)<br>
-    (You can view the wireframes as PDF's hosted on my website if links below don't work)
+    (You can view the wireframes as PDF's hosted on my website if GitHub links below don't work)
 
 High quality images/pdf link & lower quality screenshots included, in case PDF files don't load properly. (For some reason, the PDF files will not load fully when I try to view in GitHub, even though the full image is shown prior to being uploaded. So I am providing three ways to view the wireframes; PDF link below, low quality screenshots below, or PDF links on webpage above)<br>
 
