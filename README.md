@@ -36,11 +36,11 @@ The target audience is potential employers looking to hire an aspiring junior we
 - Some page's main content, as well as all navigation bars, have two separate CSS stylesheets that makes the pages responsive; to change what the user sees depending on the size of the screen they are viewing from. This is labeled as 'mobile view' and 'desktop view' in the code and is utilised in the main content of the following pages; About page, Projects overview page, and Blogs overview page.  
 
 
-**Buttons**
+**Link Buttons**
 - Used on the Home page and Contact page, the buttons link to other pages, or to external sites outside of this website.
 
 
-**Images with tooltips**
+**Images with Tooltips**
 - As well as having alt text, some images have a hoverable tooltip explaining to the user what the picture is of. (See [Project 02](https://k8g-portfolio.netlify.app/pages/project02) for example).
 
 Alt text tells the user what the image is supposed to be of, if the image link is broken for some reason, which is useful when trying to code websites, in that it tells you which image link is broken. It is also used by screen readers to read aloud to the visually impaired user, what the image is, which is important for accessibility and making your website user-friendly for the visually impaired.
@@ -49,6 +49,9 @@ Alt text tells the user what the image is supposed to be of, if the image link i
 **Hover Behaviours**
 - Allows the user to see when they are hovering over an interactable button or link. This is used in both navigational menus, as well as the buttons on About and Contact pages, and all links included on every page. There is also a hover reaction when hovering over the different projects and blogs in the Projects overview page and Blogs overview page. This makes it easier for the user to see what is interactable and what isn't.
 
+
+**Back to Top Button**
+- This button pops up when the user has scrolled down a certain amount, allowing the user to easily pop back to the top to access the navigation bar more quickly. It has has a colour change effect when hovered over.
 
 
 ## Screenshots
@@ -87,15 +90,34 @@ COMING SOON
 The site map shows all the available pages on the website. It starts with the Home page, which has a navgination bar that links to the rest of the site. There are also buttons which link to other pages or external site located on some of the pages (Home page, About page, Contacts page and some project pages.)
 
 ### Home Page
-- This page is the first page you see, has a navigation menu in the top left corner, which allows you to access the other pages in the site. 
+- This page is the first page you see; it has a navigation menu in the top left corner and has a dropdown menu feature when hovered over, allowing you to access other pages in the site. This navigation menu comes in two styles; mobile & desktop view. Mobile view has a hamburger menu icon as the point of access, while the desktop has an expanded text word menu, as there is more space for it. 
+
+- This page includes a little introduction with a link that sends the user to the external website of the company I'm studying under, as well as a link button connecting the user to the next relevant page, which is the About Page.
+
+### About Page
+- This page has a bigger introduction telling the user about myself, the website creator, and includes professional information as well as interests & hobbies I have, to give the user a little taste of my personality and what I like. A picture of myself is located at the top center, to draw the user's attention to the intro. 
+
+- This page has two different views depending on whether the user is viewing in mobile or desktop view.
+    - Mobile view has a single column view, with posts under the other, scrolling downwards.
+    -Desktop view has a single column at the top then splits into two columns to fill up the empty space that would otherwise be around the single column.
+
+### Projects Page
+- This page is an overview of the Project pages. It includes links to the relevant project pages, as well as a little snippet of the text from the post, and a relevant image. The rest of the post is available to be view when the link is clicked. 
+
+### Blogs Page
+- Similiar to the Projects page above, Blogs Page also is an overview of the available blog posts. Includes a mini preview of the images and text and a link to read more, if the user wishes.
+
+### Contact Page
+- This page has another picture of me, to remind the user who I am/what I look like, and professional links as well as my email contact. This allows the user to reach me if they would like to contact me. 
 
 
 ## Tech Stack
 Coding languages used:
 - HTML5
 - CSS
+-Javascript
 
-Profssional services used in this assignment include:
+Professional services used in this assignment include:
 - VS Code
 - GitHub
 - Netlify
@@ -103,9 +125,11 @@ Profssional services used in this assignment include:
 - [Flowchart Maker](https://app.diagrams.net/)
 -[Trello](https://trello.com/)
 
-### Sources for miscellaneous
+### Sources for miscellaneous items
 Icons from [Icons8](https://icons8.com/)
 Google
 [W3Schools](https://www.w3schools.com/)
 Images from my laptop
 My shoddy memory
+
+Hope you enjoyed my website 😊
