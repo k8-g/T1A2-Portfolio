@@ -13,7 +13,7 @@ The purpose of this website is to show what I have learnt over the last few week
 
 ## Target Audience
 
-The target audience is potential employers looking to hire an aspiring junior web developer (myself ideally), to view my learned skills and to see a little bit of who I am as a person, including my professional work history and experience. This website also serves as a way to potentially show family and friends my progress so far, in a professional manner.
+The target audience is potential employers looking to hire an aspiring junior web developer (myself ideally) or IT professionals looking to network or engage with other web developers, to view my learned skills and to see a little bit of who I am as a person, including my professional work history and experience. This website also serves as a way to potentially show family and friends my progress so far, in a professional manner.
 
 ## Functionality / Features
 
