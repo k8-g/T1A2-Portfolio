@@ -16,13 +16,15 @@ The purpose of this website is to show what I have learnt over the last few week
 ### Navigation Bar
 - Mobile view dropdown style menu with hamburger icon
 
-    Located on the right side of every page, for easy access, allowing the user to navigate to all the main pages of the website, including the Home page, About page, Projects overview page, Blogs overview page about Contact page.
+    Located on the right side of every page in mobile/smaller screens view, for easy access, allowing the user to navigate to all the main pages of the website, including the Home page, About page, Projects overview page, Blogs overview page about Contact page.
 
 - Desktop view horizontal text style menu
 
-### Screenshots
+    Located horizontally across the top of desktop/wider screens view, for easy access allowing the user to easily see and navigate to all the main pages of the website.
 
-### Sitemap
+## Screenshots
+
+## Sitemap
 
 - ![Sitemap](/docs/Sitemap%20&%20Wireframes/T1A2_Portfolio%20Sitemap.png)
 
