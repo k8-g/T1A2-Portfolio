@@ -398,6 +398,7 @@ footer {
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
     background-color:var(--mauve);
+    margin-top: 1em;
 } 
 
 /* Desktop view styling*/
