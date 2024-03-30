@@ -21,6 +21,10 @@ main > img {
     object-fit: cover;
 }
 
+.projectPreview > h3 {
+	font-family: 'Courier New', Courier, monospace;
+}
+
 .projectPreview > img {
 	border-radius: 1em;
 	max-height: auto;
