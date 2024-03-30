@@ -16,15 +16,23 @@ The purpose of this website is to show what I have learnt over the last few week
  **Navigation Bar**
 - Mobile view dropdown style menu with hamburger icon
 
-    Located on the right side of every page in mobile/smaller screens view, for easy access, allowing the user to navigate to all the main pages of the website, including the Home page, About page, Projects overview page, Blogs overview page about Contact page.
+    Located on the right side of every page in mobile/smaller screens view in the header, for easy access, allowing the user to navigate to all the main pages of the website, including the Home page, About page, Projects overview page, Blogs overview page about Contact page.
 
 - Desktop view horizontal text style menu
 
-    Located horizontally across the top of desktop/wider screens view, for easy access allowing the user to easily see and navigate to all the main pages of the website.
+    Located horizontally across the top in the header of desktop/wider screens view, for easy access allowing the user to easily see and navigate to all the main pages of the website.
 
 **Home Icon**
-- Home icon located on the left of all screens, viewable in both mobile and desktop views. Allows the user to easily go back to the home page.
+- Home icon located on the left of all screens in the header, viewable in both mobile and desktop views. Allows the user to easily go back to the home page.
 
+**Buttons**
+- Used on Home page and Contact page to link to other pages or to external sites, outside of my website.
+
+**Images with tooltips**
+- As well as having alt text, some images have a hoverable tooltop explaining to the user what the picture is of. See [Project 02](https://k8g-portfolio.netlify.app/pages/project02) for example.
+
+**Hover Behaviours**
+- Allows the user to see when they are hovering over an interactable button or link. This is used in both navigation bars, as well as the buttons on About and Contact pages, and all links included on every page.
 
 
 ## Screenshots
