@@ -9,11 +9,11 @@
 
 ## Purpose
 
-The purpose of this website is to show what I have learnt over the last few weeks learning to code, presenting as a website that one would show to poteintial employers. This website includes mobile view and desktop view HTML and CSS styling that makes this site responsive, over a range of pages and various stylesheets for different pages or sections to make a functional, working website.
+The purpose of this website is to show what I have learnt over the last few weeks learning to code, presenting as a website that one would show to potential employers. This website includes mobile view and desktop view HTML and CSS styling that makes this site responsive, over a range of pages and various stylesheets for different pages or sections, to make a functional, working website.
 
 ## Target Audience
 
-The target audience is potential employers looking to hire an aspiring junior web developer (myself ideally), to view my learned skills and to see a little bit of who I am as a person, as well as to potentially show family and friends my progress so far, in a professional manner.
+The target audience is potential employers looking to hire an aspiring junior web developer (myself ideally), to view my learned skills and to see a little bit of who I am as a person, including my professional work history and experience. This website also serves as a way to potentially show family and friends my progress so far, in a professional manner.
 
 ## Functionality / Features
 
@@ -53,6 +53,7 @@ Alt text tells the user what the image is supposed to be of, if the image link i
 
 ## Screenshots
 COMING SOON
+
 
 ## Sitemap
 
