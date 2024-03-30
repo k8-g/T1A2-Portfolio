@@ -43,12 +43,12 @@ main > img {
 	justify-content: center;
 	align-items: center;
 	row-gap: 0.75em;
-	margin: 2em;
+	margin: 1em;
 	padding: 1em;
 	background-color: var(--heliotrope);
 	border-radius: 2em;
 	box-shadow: 0.5em 0.5em var(--french-violet);
-	margin-bottom: 3em;
+	/* margin-bottom: 3em; */
 }
 /* Styles h3 text */
 .projectPreview > h3 {
