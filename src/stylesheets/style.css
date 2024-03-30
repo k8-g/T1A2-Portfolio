@@ -67,13 +67,13 @@ header {
 
 /* Nav bar positioning*/
 nav {
-    margin-right: 1vw;
-    margin-top: -1vw;
+    /* margin-right:1vw; */
+    margin-top: 0.5vw;
     position: absolute;
     right: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
-    transform: translateX(-20px) translateY(5px);
+    /* transform: translateX(-20px) translateY(5px); */
 }
 
 /* Nav bar links */
@@ -108,7 +108,7 @@ nav > a:hover {
     color: black;
     font-size: 16px;
     border: none;
-    margin-right: -2vw;
+    /* margin-right: 2vw; */
     padding-top: 1em;
   }
 
@@ -154,6 +154,8 @@ nav > a:hover {
     border-radius: 0.75em;
     justify-content:end;
     width:fit-content;
+    transform: translateX(-20px) ;
+
 }
 
 /* Background color of the dropdown button when the dropdown content is shown */
@@ -166,6 +168,11 @@ nav > a:hover {
 .dropdown .dropdown-content ul li {
   width: 100%;
 }
+
+.dropdown .dropdown-content ul a {
+  /* width: 100%; */
+}
+
 /* Changes background colour when hovered in drowndown menu */
 .dropdown .dropdown-content ul li a:hover {
   background-color: var(--tekhelet);
@@ -195,6 +202,8 @@ ul {
     overflow: hidden;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 0.75em;
+    /* transform: translateX(-20px) translateY(5px); */
+
 }
 
 /* Allows second level to be visible when hovered */
@@ -407,7 +416,6 @@ footer {
     bottom: 0; 
     left: 0; 
     z-index: 99;
-
 } 
 
 
