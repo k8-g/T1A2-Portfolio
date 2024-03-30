@@ -406,7 +406,7 @@ main .intro > h1 {
 
 /* Footer/text at bottom of pages */
 footer {
-    height: 5dvh;
+    height: 5svh;
     width: 100dvw; 
     display: flex;
     justify-content: center;
