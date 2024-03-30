@@ -126,10 +126,10 @@ Professional services used in this assignment include:
 -[Trello](https://trello.com/)
 
 ### Sources for miscellaneous items
-Icons from [Icons8](https://icons8.com/)
-Google
-[W3Schools](https://www.w3schools.com/)
-Images from my laptop
-My shoddy memory
+- Icons from [Icons8](https://icons8.com/)
+- Google
+- W3Schools](https://www.w3schools.com/)
+- Images from my phone/laptop
+- My shoddy memory
 
-Hope you enjoyed my website 😊
+### Hope you enjoyed my website 😊
