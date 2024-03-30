@@ -53,6 +53,14 @@ main > .intro {
         font-family: 'Courier New', Courier, monospace;
     }
 
+    main > .intro2 > p > a {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight:bold;
+        text-decoration: none;
+        color: var(--russian-violet-2)
+    }
+    
+
     main > .intro2{
         background-color: var(--mauve);
         font-family: Arial, Helvetica, sans-serif;
