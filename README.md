@@ -53,7 +53,7 @@ Alt text tells the user what the image is supposed to be of, if the image link i
 
 ## Screenshots
 ### Mobile View Wireframes
-(High quality images/pdf link & lower quality screenshots included, in case PDF files don't load properly)<br>
+High quality images/pdf link & lower quality screenshots included, in case PDF files don't load properly. (For some reason, the PDF files will not load fully when I try to view in GitHub, even though the full image is shown prior to being uploaded)<br>
 
 - [Home Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Home%20Page%20Mobile%20View%20Wireframe.pdf)<br>
     ![Screenshot of Home Page Mobile Wireframe](/docs/Screenshots/Home%20Page%20Mobile%20Wireframe%20Layout.png)
