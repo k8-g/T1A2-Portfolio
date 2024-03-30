@@ -436,7 +436,7 @@ main > h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-main > p > a {
+main > li > a {
   color: var(--persian-indigo);
-
+  
 }
