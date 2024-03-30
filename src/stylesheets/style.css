@@ -181,7 +181,7 @@ ul {
     border-radius: 0.75em;
 }
 
-
+/* Allows second level to be visible when hovered */
   ul:hover {
     overflow: visible;
     width: auto;

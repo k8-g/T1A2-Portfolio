@@ -21,16 +21,16 @@ main > img {
 
 /* Text container */
 main > .intro {
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 3em;
 }
 
 /* Mobile view */
 @media only screen and (max-width: 768px) {
 
-    /* Styles main section on moain in mobile view */
-    main > .mobile {
+    /* Styles text box in main section in mobile view */
+    main > .mobile-textbox {
         background-color: var(--mauve);
         font-family: Arial, Helvetica, sans-serif;
         justify-content:center;
@@ -39,46 +39,30 @@ main > .intro {
         border-radius: 1.5em;
         padding: 1em;
         box-shadow: 20px 20px 10px var(--russian-violet-2);
-        margin-left: 5em;
-        margin-right: 5em;
+        margin-left: 8%;
+        margin-right: 8%;
         margin-bottom: 3em;
     }
 
-    /* Styles image in main section in mobile view */
-    main > .mobile > img {
+    /* Styles image in textbox in mobile view */
+    main > .mobile-textbox > img {
         width:90%;
         border-radius: 10em;
     }
 
-    /* Styles header 2 in mobile view section*/
-    main > .mobile > h2 {
+    /* Styles h2 text in textbox in mobile view*/
+    main > .mobile-textbox > h2 {
         font-family: 'Courier New', Courier, monospace;
     }
 
-    /* Styles link text in mobile view section */
-    main > .intro2 > p > a {
+    /* Styles link text in textbox in mobie view */
+    main > .mobile-textbox > p > a {
         font-family: 'Courier New', Courier, monospace;
         font-weight:bold;
         text-decoration: none;
         color: var(--russian-violet-2)
     }
     
-
-    /* Styles text box in mobile view */
-    main > .intro2{
-        background-color: var(--mauve);
-        font-family: Arial, Helvetica, sans-serif;
-        justify-content:center;
-        align-items: center;
-        text-align: center;
-        border-radius: 1.5em;
-        padding: 1em;
-        box-shadow: 20px 20px 10px var(--russian-violet-2);
-        margin-left: 5em;
-        margin-right: 5em;
-        margin-bottom: 3em;
-    }
-
     /* Hides desktop view text box so it's not visible in mobile view*/
     .columns {
         display: none;
@@ -89,13 +73,9 @@ main > .intro {
 /* Desktop view styling*/
 @media only screen and (min-width: 768px) {
 
-    /* Hides text box so it's not visible in desktop view */
-    main .intro2{
-        display:none;
-    }
 
     /* Hides mobile view section text*/
-    main .mobile {
+    main .mobile-textbox {
         display:none;
     }
 
@@ -115,7 +95,7 @@ main > .intro {
         border-radius: 1.5em;
         padding: 1em;
         box-shadow: 20px 20px 10px var(--russian-violet-2);
-        margin-left: 5em;
+        margin-left: 5%;
         margin-right: 2em;
         margin-bottom: 3em;
     }
@@ -142,9 +122,9 @@ main > .intro {
         padding: 1em;
         box-shadow: 20px 20px 10px var(--russian-violet-2);
         margin-left: 1em;
-        margin-right: 5em;
+        margin-right: 5%;
         margin-bottom: 3em;
-        width: auto;
+        width: 60%;
     }
 
 /* Styles h2 text in coloumn 2 */
