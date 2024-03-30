@@ -9,7 +9,7 @@
 
 ## Purpose
 
-The purpose of this website is to show what I have learnt over the last few weeks learning to presenting as a website that one would show to poteintial employers. This website includes mobile view and desktop view HTML and CSS styling that makes this site responsive, over a range of pages and various stylesheets for different pages or sections to make a functional, working website.
+The purpose of this website is to show what I have learnt over the last few weeks learning to code, presenting as a website that one would show to poteintial employers. This website includes mobile view and desktop view HTML and CSS styling that makes this site responsive, over a range of pages and various stylesheets for different pages or sections to make a functional, working website.
 
 ## Target Audience
 
