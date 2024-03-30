@@ -22,6 +22,11 @@ The purpose of this website is to show what I have learnt over the last few week
 
     Located horizontally across the top of desktop/wider screens view, for easy access allowing the user to easily see and navigate to all the main pages of the website.
 
+### Home Icon
+- Home icon located on the left of all screens, viewable in both mobile and desktop views. Allows the user to easily go back to the home page.
+
+
+
 ## Screenshots
 
 ## Sitemap
