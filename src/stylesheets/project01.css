@@ -36,7 +36,7 @@ main > img {
 	justify-content: center;
 	align-items: center;
 	row-gap: 1em;
-	margin: 2em;
+	margin: 5em;
 	padding: 1em;
 	background-color: var(--heliotrope);
 	border-radius: 2em;
@@ -86,7 +86,8 @@ main > img {
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
-	margin: 0;
+	/* margin: 0; */
+	margin-bottom: 5em;
 }
 
 
