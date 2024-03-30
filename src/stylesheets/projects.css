@@ -1,5 +1,5 @@
 
-/* Projects page stylesheet overrides */
+/* Projects and Blogs page stylesheet overrides */
 
 /* Colour palette */
 :root {
@@ -29,11 +29,12 @@ main > img {
 
 /* Image in project previews which also links to said project */
 .projectPreview > a > img {
-	height: 20dvh;
 	border-radius: 1em;
+	width: 100%;
 }
 
 
+/* Styles previews */
 .projectPreview {
 	max-width: 65dvw;
 	transition: 1s;
@@ -41,7 +42,7 @@ main > img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	row-gap: 1em;
+	row-gap: 0.75em;
 	margin: 2em;
 	padding: 1em;
 	background-color: var(--heliotrope);
@@ -49,20 +50,20 @@ main > img {
 	box-shadow: 0.5em 0.5em var(--french-violet);
 }
 
+/* Styles h3 text */
 .projectPreview > h3 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
+/* Hover behaviour on previews */
 .projectPreview:hover {
 	border-radius: 0.5em;
     box-shadow: 0.5em 0.5em var(--russian-violet);
-    transform: scale(1.075);
+    transform: scale(1.05);
 }
 
-
+/* Styles links in previews */
 .projectPreview > a {
-	
 	padding: 0.5em;
 	border-radius: 0.5em;
     text-decoration: none; 
@@ -71,26 +72,26 @@ main > img {
 	font-weight: bold;
 }
 
-
+/* Styles link hover behaviour */
 .projectPreview > a:hover{
     color: white;
     background-color: var(--french-violet);
 }
-
-
 
 .projectPreview > section {
 	display: flex;
 	column-gap: 2em;
 }
 
+/* styles links in previews section */
 .projectPreview > section > a {
 	background-color: var(--mauve);
 	padding: 1em;
-	border-radius: 1em;
+	border-radius: 0.75em;
 	border: 2px solid white;
 }
 
+/* Determines how the boxes are displayed */
 .contentRow {
 	display: flex;
 	flex-direction: column;
@@ -98,16 +99,18 @@ main > img {
 	margin: 0;
 }
 
-
+/* Main section of page */
 main {
 	margin: 0;
 }
 
+/* Styles text used to show date published in previews*/
 .date {
 	font-family: 'Courier New', Courier, monospace;
 	font-size: small;
   }
 
+/* Styles text used to show date published in individual project and blog pages*/
 .published {
 	font-family: 'Courier New', Courier, monospace;
 	font-size: small;
@@ -117,6 +120,8 @@ main {
 
 /* Desktop view */
 @media screen and (min-width: 600px) {
+	
+	/* Determines how the boxes are position in desktop view */
 	.contentRow {
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -125,16 +130,16 @@ main {
 		padding: 0;
 	}
 
+	/* styles main section */
 	main {
 		margin: 0;
 		padding: 0;
-
 	}
 
+	/* Styles previews */
 	.projectPreview {
 		width: 30dvw;
 		margin: 1em;
-		
 	}
 }
 
