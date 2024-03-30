@@ -99,7 +99,7 @@ The site map shows all the available pages on the website. It starts with the Ho
 
 - This page has two different views depending on whether the user is viewing in mobile or desktop view.
     - Mobile view has a single column view, with posts under the other, scrolling downwards.
-    -Desktop view has a single column at the top then splits into two columns to fill up the empty space that would otherwise be around the single column.
+    - Desktop view has a single column at the top then splits into two columns to fill up the empty space that would otherwise be around the single column.
 
 ### Projects Page
 - This page is an overview of the Project pages. It includes links to the relevant project pages, as well as a little snippet of the text from the post, and a relevant image. The rest of the post is available to be view when the link is clicked. 
