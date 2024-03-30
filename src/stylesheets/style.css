@@ -246,6 +246,8 @@ body {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+    position: relative;
+    padding-bottom: 5dvh;
 }
 
 
@@ -257,6 +259,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+   
 }
 
 /* "Everything" in main */
@@ -372,7 +376,7 @@ main .intro > h1 {
   position: fixed;
   bottom: 20px;
   right: 30px;
-  z-index: 99;
+  z-index: 100;
   font-size: 18px;
   border: none;
   outline: none;
@@ -394,12 +398,18 @@ footer {
     height: 5dvh;
     width: 100dvw; 
     display: flex;
-    justify-content:  center;
+    justify-content: center;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
     background-color:var(--mauve);
-    margin-top: 1em;
+    margin-top: 5em;   
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 99;
+
 } 
+
 
 /* Desktop view styling*/
 @media only screen and (min-width: 768px) {
