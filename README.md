@@ -25,6 +25,9 @@ The purpose of this website is to show what I have learnt over the last few week
 **Home Icon**
 - Home icon located on the left of all screens in the header, viewable in both mobile and desktop views. Allows the user to easily go back to the home page.
 
+**Mobile & Desktop views**
+- Some pages have two separate CSS styling to change what the user sees depending on the size of the screen they are viewing from. This is utilised in the following pages; About page, Projects overview page, and Blogs overview page. 
+
 **Buttons**
 - Used on Home page and Contact page to link to other pages or to external sites, outside of my website.
 
@@ -32,7 +35,8 @@ The purpose of this website is to show what I have learnt over the last few week
 - As well as having alt text, some images have a hoverable tooltop explaining to the user what the picture is of. See [Project 02](https://k8g-portfolio.netlify.app/pages/project02) for example.
 
 **Hover Behaviours**
-- Allows the user to see when they are hovering over an interactable button or link. This is used in both navigation bars, as well as the buttons on About and Contact pages, and all links included on every page.
+- Allows the user to see when they are hovering over an interactable button or link. This is used in both navigation bars, as well as the buttons on About and Contact pages, and all links included on every page. There is also a hover reaction when hovering over the different projects and blogs in the Projects overview page and Blogs overview page.
+
 
 
 ## Screenshots
