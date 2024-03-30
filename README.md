@@ -55,6 +55,7 @@ Alt text tells the user what the image is supposed to be of, if the image link i
 ### Mobile View Wireframes
 
 - [Home Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Home%20Page%20Mobile%20Wireframe.pdf)<br>
+    ![Screenshot Home Page Wireframe]()
 - [About Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/About%20Page%20Mobile%20Wireframe.pdf)<br>
 - [Projects Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Projects%20Page%20Mobile%20Wireframe.pdf)<br>
 - [Blogs Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Blogs%20Page%20Mobile%20Wireframe.pdf)<br>
