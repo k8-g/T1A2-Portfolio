@@ -127,7 +127,7 @@ Professional services used in this assignment include:
 
 ### Sources for miscellaneous items
 - Icons from [Icons8](https://icons8.com/)
-- Google
+- Google (for questions, images and Javascript)
 - [W3Schools](https://www.w3schools.com/)
 - Images from my phone/laptop
 - My shoddy memory
