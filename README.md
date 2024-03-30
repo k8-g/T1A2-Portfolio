@@ -89,6 +89,18 @@ High quality images/pdf links & lower quality screenshots included, in case the 
 ![Screenshot of About Page Mobile View](/docs/Screenshots/About%20Page%20Mobile%20view.png)
 ![Screenshot of About Page Desktop View](/docs/Screenshots/About%20Page%20Desktop%20View.png)
 
+- Projects <br> ADD DESKTOP VIEW
+![Screenshots of Project Page Mobile View](/docs/Screenshots/Projects%20Mobile%20View.png)
+![Screenshots of Project Page Desktop View]()
+
+- Blogs <br> ADD DESKTOP VIEW
+![Screenshots of Blogs Page Mobile View](/docs/Screenshots/Blog%20Page%20Mobile%20View.png)
+![Screenshots of Blogs Page Mobile View]()
+
+- Contact <br>
+![Screenshots of Contact Page Mobile View](/docs/Screenshots/Contact%20Page%20Mobile%20view.png)
+![Screenshots of Contact Page Desktop View](/docs/Screenshots/Contact%20Page%20Desktop%20View.png)
+
 ## Sitemap
 
 ![Sitemap](/docs/Sitemap%20&%20Wireframes/T1A2_Portfolio%20Sitemap.drawio.png)
