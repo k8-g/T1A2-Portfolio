@@ -53,13 +53,22 @@ Alt text tells the user what the image is supposed to be of, if the image link i
 
 ## Screenshots
 ### Mobile View Wireframes
+(High quality images/pdf link & lower quality screenshots included, in case PDF files don't load properly)<br>
 
-- [Home Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Home%20Page%20Mobile%20Wireframe.pdf)<br>
-    ![Screenshot Home Page Wireframe]()
-- [About Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/About%20Page%20Mobile%20Wireframe.pdf)<br>
-- [Projects Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Projects%20Page%20Mobile%20Wireframe.pdf)<br>
-- [Blogs Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Blogs%20Page%20Mobile%20Wireframe.pdf)<br>
-- [Contact Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Contact%20Page%20Mobile%20Wireframe.pdf)<br>
+- [Home Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Home%20Page%20Mobile%20View%20Wireframe.pdf)<br>
+    ![Screenshot of Home Page Mobile Wireframe](/docs/Screenshots/Home%20Page%20Mobile%20Wireframe%20Layout.png)
+
+- [About Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/About%20Page%20Mobile%20View%20Wireframe.pdf)<br>
+    ![Screenshot of About Page Mobile Wireframe](/docs/Screenshots/About%20Page%20Mobile%20Wireframe%20Layout.png)
+
+- [Projects Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Projects%20Page%20Mobile%20View%20Wireframe.pdf)<br>
+    ![Screenshot of Projects Page Mobile Wireframe](/docs/Screenshots/Projects%20Page%20Mobile%20Wireframe%20Layout.png)
+
+- [Blogs Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Blog%20Page%20Mobile%20View%20Wireframe.pdf)<br>
+    ![Screenshot of Blogs Page Mobile Wireframe](/docs/Screenshots/Blogs%20Page%20Mobile%20Wireframe%20Layout.png)
+
+- [Contact Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Contact%20Page%20Mobile%20View%20Wireframe.pdf)<br>
+    ![Screenshot of Contact Page Mobile Wireframe](/docs/Sitemap%20&%20Wireframes/Contact%20Page%20Mobile%20View%20Wireframe.pdf)
 
 ### Desktop View Wireframes
 COMING SOON
