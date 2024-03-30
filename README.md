@@ -78,7 +78,7 @@ High quality images/pdf links & lower quality screenshots included, in case the 
     ![Screenshot of Contact Page Mobile Wireframe](/docs/Screenshots/Contacts%20Page%20Mobile%20Wireframe%20Layout.png)
 
 ### Desktop View Wireframes
-COMING SOON
+[Desktop View Wireframes](https://k8g-portfolio.netlify.app/pages/wireframes)
 
 ### Screenshots of Actual Pages
 COMING SOON
