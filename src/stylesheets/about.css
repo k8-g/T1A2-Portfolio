@@ -21,8 +21,6 @@ main > img {
 
 /* Text container */
 main > .intro {
-    margin-left: 5%;
-    margin-right: 5%;
     margin-bottom: 3em;
 }
 
@@ -38,7 +36,7 @@ main > .intro {
         text-align: center;
         border-radius: 1.5em;
         padding: 1em;
-        box-shadow: 20px 20px 10px var(--russian-violet-2);
+        box-shadow: 15px 15px 10px var(--russian-violet-2);
         margin-left: 8%;
         margin-right: 8%;
         margin-bottom: 3em;

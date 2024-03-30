@@ -5,7 +5,7 @@
 
 - [Portfolio Link](https://k8g-portfolio.netlify.app/)
 
-- [GitHub: T1A2: Portfolio](https://github.com/k8-g/T1A2-Portfolio)
+- [GitHub: T1A2-Portfolio](https://github.com/k8-g/T1A2-Portfolio)
 
 ## Purpose
 
@@ -32,7 +32,7 @@ The target audience is for potential employers to view my learned skills, or to 
 
 
 **Mobile & Desktop views**
-- Some page's main content, as well as all navigation bars, have two separate CSS stylesheets, to change what the user sees depending on the size of the screen they are viewing from. This is labeled as 'mobile view' and 'desktop view' and is utilised in the following pages; About page, Projects overview page, and Blogs overview page.  
+- Some page's main content, as well as all navigation bars, have two separate CSS stylesheets that makes the pages responsive; to change what the user sees depending on the size of the screen they are viewing from. This is labeled as 'mobile view' and 'desktop view' and is utilised in the following pages; About page, Projects overview page, and Blogs overview page.  
 
 
 **Buttons**
@@ -40,25 +40,22 @@ The target audience is for potential employers to view my learned skills, or to 
 
 
 **Images with tooltips**
-- As well as having alt text, some images have a hoverable tooltop explaining to the user what the picture is of. See [Project 02](https://k8g-portfolio.netlify.app/pages/project02) for example. Alt text tells the user what the image is supposed to be if the image link is broken for some reason, and it is also used by screen readers to read aloud to the visually impaired what the image is.
+- As well as having alt text, some images have a hoverable tooltip explaining to the user what the picture is of. See [Project 02](https://k8g-portfolio.netlify.app/pages/project02) for example. Alt text tells the user what the image is supposed to be if the image link is broken for some reason, which is useful when trying to code websites, in that it tells you which image is broken, and it is also used by screen readers to read aloud to the visually impaired user what the image is, which is important for accessibility and making your website user-friendly for the visually impaired.
 
 
 **Hover Behaviours**
-- Allows the user to see when they are hovering over an interactable button or link. This is used in both navigation bars, as well as the buttons on About and Contact pages, and all links included on every page. There is also a hover reaction when hovering over the different projects and blogs in the Projects overview page and Blogs overview page.
+- Allows the user to see when they are hovering over an interactable button or link. This is used in both navigation bars, as well as the buttons on About and Contact pages, and all links included on every page. There is also a hover reaction when hovering over the different projects and blogs in the Projects overview page and Blogs overview page. This makes it easier for the user to see what is interactable and what isn't.
 
 
 
 ## Screenshots
+COMING SOON
 
 ## Sitemap
 
 ![Sitemap](/docs/Sitemap%20&%20Wireframes/T1A2_Portfolio%20Sitemap.drawio.png)
 
 The site map shows all the available pages on the website. It starts with the Home page, which has a navgination bar that links to the rest of the site. There are also buttons which link to other pages or external site located on some of the pages (Home page, About page, Contacts page and some project pages.)
-
-
-
-
 
 ## Tech Stack
 - HTML5
@@ -67,5 +64,11 @@ The site map shows all the available pages on the website. It starts with the Ho
 - Netlify
 - Figma
 - [Flowchart Maker](https://app.diagrams.net/)
+-[Trello](https://trello.com/)
 
-
+### Sources
+Icons from [Icons8](https://icons8.com/)
+Google
+[W3Schools](https://www.w3schools.com/)
+Images from my laptop
+My shoddy memory

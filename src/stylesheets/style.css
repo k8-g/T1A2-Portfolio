@@ -302,9 +302,8 @@ main > .intro {
     border-radius: 1.5em;
     padding: 1em;
     box-shadow: 20px 20px 10px var(--russian-violet-2);
-    margin-left: 5em;
-    margin-right: 5em;
-    
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* Styles links when hovered in main text box*/
@@ -369,5 +368,8 @@ footer {
 /* Mobile view styling*/
 @media only screen and (max-width: 768px) {
  
-
+  main > .intro {
+    box-shadow: 15px 15px 10px var(--russian-violet-2);
+  }
+  
 }
