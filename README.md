@@ -68,7 +68,7 @@ High quality images/pdf link & lower quality screenshots included, in case PDF f
     ![Screenshot of Blogs Page Mobile Wireframe](/docs/Screenshots/Blogs%20Page%20Mobile%20Wireframe%20Layout.png)
 
 - [Contact Page Mobile View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Contact%20Page%20Mobile%20View%20Wireframe.pdf)<br>
-    ![Screenshot of Contact Page Mobile Wireframe](/docs/Sitemap%20&%20Wireframes/Contact%20Page%20Mobile%20View%20Wireframe.pdf)
+    ![Screenshot of Contact Page Mobile Wireframe](/docs/Screenshots/Contacts%20Page%20Mobile%20Wireframe%20Layout.png)
 
 ### Desktop View Wireframes
 COMING SOON
