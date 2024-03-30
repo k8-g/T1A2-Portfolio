@@ -48,9 +48,11 @@ The purpose of this website is to show what I have learnt over the last few week
 
 ## Sitemap
 
-![Sitemap](/docs/Sitemap%20&%20Wireframes/T1A2_Portfolio%20Sitemap.png)
+![Sitemap](/docs/Sitemap%20&%20Wireframes/T1A2_Portfolio%20Sitemap.drawio.png)
 
 The site map shows all the available pages on the website. It starts with the Home page, which has a navgination bar that links to the rest of the site. There are also buttons which link to other pages or external site located on some of the pages (Home page, About page, Contacts page and some project pages.)
+
+The the 
 
 ## Target Audience
 
