@@ -1,15 +1,19 @@
 # Kate Gerber's T1A2-Portfolio Assignment
 
 
-Kate's Portfolio (T1A2:Portfolio - Website Assigment)
+[(T1A2:Portfolio - Website Assigment)](https://ait.instructure.com/courses/5198/assignments/55633)
 
 - [Portfolio Link](https://k8g-portfolio.netlify.app/)
 
-- [GitHub :T1A2: Portfolio](https://github.com/k8-g/T1A2-Portfolio)
+- [GitHub: T1A2: Portfolio](https://github.com/k8-g/T1A2-Portfolio)
 
 ## Purpose
 
 The purpose of this website is to show what I have learnt over the last few weeks learning to code.
+
+## Target Audience
+
+The target audience is for potential employers to view my learned skills, or to potentially show family and friends my progress so far.
 
 ## Functionality / Features
 
@@ -52,9 +56,9 @@ The purpose of this website is to show what I have learnt over the last few week
 
 The site map shows all the available pages on the website. It starts with the Home page, which has a navgination bar that links to the rest of the site. There are also buttons which link to other pages or external site located on some of the pages (Home page, About page, Contacts page and some project pages.)
 
-The the 
 
-## Target Audience
+
+
 
 ## Tech Stack
 - HTML5
