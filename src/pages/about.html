@@ -7,7 +7,7 @@
 	<!-- Page title that shows on tab at top -->
 	<title>Kate Gerber | About Me</title>
 
-	<!-- Linking relevant css stylesheet for this page -->
+	<!-- Linking relevant css stylesheet(s) for this page -->
 	<link rel="stylesheet" href="../stylesheets/about.css">
 	<link rel="stylesheet" href="../stylesheets/style.css">
 	<link rel="stylesheet" href="../stylesheets/nav.css">
@@ -32,7 +32,7 @@
 		<nav>
 			<div class="dropdown">
 				
-				<!-- Mobile nav bar dropdown menu icon/image -->
+				<!-- Mobile nav bar dropdown hamburger menu icon -->
 				<button class="dropbtn">
 					<div class="menu"></div>
 				</button>
@@ -68,7 +68,7 @@
 		</nav>
 
 
-		<!-- Nav bar menu for desktop view; expands horizontally -->
+		<!-- Nav bar menu for desktop view -->
 		<div class="nav-links">
             <ul>
                 <li><a href="../index.html">Home</a></li>
@@ -175,7 +175,8 @@
 			</p>
 
 			<br>
-			<p>
+			<p> 
+				<!-- Link to PDF -->
 				<a href="../assets/Kate_Gerber_Resume.pdf">Click to see work history</a>
 			</p>		
 		</div>
@@ -190,18 +191,20 @@
 				Spooky stuff • Crystals (for the aesthetic/cause they're pretty) • Movies • Nintendo Switch • Settlement building games • Stardew Valley •
 				<br> <br>
 
+				<!-- Image -->
 				<img src="../assets/crystal_cat.png" alt="Kawaii kitty with crystals" class="responsive">
 				<br><br>
 					Entomology taxidermy • Skulls • Kuromi • Did I mention purple things? • Pets • Mood lighting • Music •
 				</p>
 				<br>
-				<img src="../assets/skull.png">
+				<!-- Image -->
+				<img src="../assets/skull.png" alt="pixel art of an elongated animal skull in white and pink">
 
 			</p>
 
 		</div>
 
-<!-- Columns for desktop view -->
+		<!-- Columns for desktop view -->
 		<div class="columns">
 			
 			<!-- First column, left side -->
@@ -284,41 +287,40 @@
 		</div>
 	</main>
 
-<!-- Back to top button -->
-<button onclick="topFunction()" id="myBtn" title="Go to top">    
-	<div class="backtotop"></div>
-</button>
+	<!-- Back to top button -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">    
+		<div class="backtotop"></div>
+	</button>
 
-<!-- Javascript for back to top button; code from W3Schools -->
-<script>
+	<!-- Javascript for back to top button; code from W3Schools -->
+	<script>
 
-	 // Get the button: 
-let mybutton = document.getElementById("myBtn");
+		// Get the button: 
+	let mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-	mybutton.style.display = "block";
-} else {
-	mybutton.style.display = "none";
-}
-}
+	function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+	} else {
+		mybutton.style.display = "none";
+	}
+	}
 
-// When the user clicks on the button, scroll to the top of the document 
-function topFunction() {
-document.body.scrollTop = 0; // For Safari
-document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-</script> 
+	// When the user clicks on the button, scroll to the top of the document 
+	function topFunction() {
+	document.body.scrollTop = 0; // For Safari
+	document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	}
+	</script> 
 
 	
-<!-- Text at the bottom of the page-->
-<footer id="footer">
-	<h6> Kate Gerber &#128156; 2024  </h6>
-</footer>
-
+	<!-- Text at the bottom of the page-->
+	<footer id="footer">
+		<h6> Kate Gerber &#128156; 2024  </h6>
+	</footer>
 
 </body>
 </html>
