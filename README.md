@@ -9,11 +9,11 @@
 
 ## Purpose
 
-The purpose of this website is to show what I have learnt over the last few weeks learning to code.
+The purpose of this website is to show what I have learnt over the last few weeks learning to presenting as a website that one would show to poteintial employers. This website includes mobile view and desktop view HTML and CSS styling that makes this site responsive, over a range of pages and various stylesheets for different pages or sections to make a functional, working website.
 
 ## Target Audience
 
-The target audience is for potential employers to view my learned skills and to see a little bit of who I am as a person, or to potentially show family and friends my progress so far.
+The target audience is potential employers looking to hire an aspiring junior web developer (myself ideally), to view my learned skills and to see a little bit of who I am as a person, as well as to potentially show family and friends my progress so far, in a professional manner.
 
 ## Functionality / Features
 
@@ -61,15 +61,19 @@ COMING SOON
 The site map shows all the available pages on the website. It starts with the Home page, which has a navgination bar that links to the rest of the site. There are also buttons which link to other pages or external site located on some of the pages (Home page, About page, Contacts page and some project pages.)
 
 ## Tech Stack
+Coding languages used:
 - HTML5
 - CSS
+
+Profssional services used in this assignment include:
+- VS Code
 - GitHub
 - Netlify
 - Figma
 - [Flowchart Maker](https://app.diagrams.net/)
 -[Trello](https://trello.com/)
 
-### Sources
+### Sources for miscellaneous
 Icons from [Icons8](https://icons8.com/)
 Google
 [W3Schools](https://www.w3schools.com/)
