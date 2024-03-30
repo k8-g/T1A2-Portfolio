@@ -13,18 +13,19 @@ The purpose of this website is to show what I have learnt over the last few week
 
 ## Target Audience
 
-The target audience is for potential employers to view my learned skills, or to potentially show family and friends my progress so far.
+The target audience is for potential employers to view my learned skills and to see a little bit of who I am as a person, or to potentially show family and friends my progress so far.
 
 ## Functionality / Features
 
  **Navigation Bar**
 - Mobile view dropdown style menu with hamburger icon
 
-    Located on the right top corner of every page in mobile/smaller screens view in the header, for easy access, allowing the user to navigate to all the main pages of the website, including the Home page, About page, Projects overview page, Blogs overview page and Contact page.
+    Located on the right top corner of every page in mobile view/smaller screens in the header; for easy access, allowing the user to navigate to all pages of the website.
+
 
 - Desktop view horizontal text style menu
 
-    Located horizontally across the top in the header, starting from the right top corner going backwards, for easy access allowing the user to easily see and navigate to all the main pages of the website while viewing from a wider screen/desktop view.
+    Located horizontally across the top in the header, starting from the right top corner going backwards, for easy access allowing the user to easily see and navigate to all the main pages of the website while viewing from a wider screen/desktop view. When hovered over Projects or Blogs, it shows a second hidden level of the menu, showing extra pages located related that section.
 
 
 **Home Icon**
@@ -32,7 +33,7 @@ The target audience is for potential employers to view my learned skills, or to 
 
 
 **Mobile & Desktop views**
-- Some page's main content, as well as all navigation bars, have two separate CSS stylesheets that makes the pages responsive; to change what the user sees depending on the size of the screen they are viewing from. This is labeled as 'mobile view' and 'desktop view' and is utilised in the following pages; About page, Projects overview page, and Blogs overview page.  
+- Some page's main content, as well as all navigation bars, have two separate CSS stylesheets that makes the pages responsive; to change what the user sees depending on the size of the screen they are viewing from. This is labeled as 'mobile view' and 'desktop view' in the code and is utilised in the main content of the following pages; About page, Projects overview page, and Blogs overview page.  
 
 
 **Buttons**
@@ -40,11 +41,13 @@ The target audience is for potential employers to view my learned skills, or to 
 
 
 **Images with tooltips**
-- As well as having alt text, some images have a hoverable tooltip explaining to the user what the picture is of. See [Project 02](https://k8g-portfolio.netlify.app/pages/project02) for example. Alt text tells the user what the image is supposed to be if the image link is broken for some reason, which is useful when trying to code websites, in that it tells you which image is broken, and it is also used by screen readers to read aloud to the visually impaired user what the image is, which is important for accessibility and making your website user-friendly for the visually impaired.
+- As well as having alt text, some images have a hoverable tooltip explaining to the user what the picture is of. (See [Project 02](https://k8g-portfolio.netlify.app/pages/project02) for example).
+
+Alt text tells the user what the image is supposed to be of, if the image link is broken for some reason, which is useful when trying to code websites, in that it tells you which image link is broken. It is also used by screen readers to read aloud to the visually impaired user, what the image is, which is important for accessibility and making your website user-friendly for the visually impaired.
 
 
 **Hover Behaviours**
-- Allows the user to see when they are hovering over an interactable button or link. This is used in both navigation bars, as well as the buttons on About and Contact pages, and all links included on every page. There is also a hover reaction when hovering over the different projects and blogs in the Projects overview page and Blogs overview page. This makes it easier for the user to see what is interactable and what isn't.
+- Allows the user to see when they are hovering over an interactable button or link. This is used in both navigational menus, as well as the buttons on About and Contact pages, and all links included on every page. There is also a hover reaction when hovering over the different projects and blogs in the Projects overview page and Blogs overview page. This makes it easier for the user to see what is interactable and what isn't.
 
 
 

@@ -1,3 +1,4 @@
+
 /* Projects page stylesheet overrides */
 
 /* Colour palette */
@@ -20,12 +21,18 @@ main > img {
     height: 40dvh;
 }
 
-
-.projectPreview > img {
+/* Image in project previews */
+/* .projectPreview > img {
 	height: 20dvh;
 	border-radius: 1em;
-	
+} */
+
+/* Image in project previews which also links to said project */
+.projectPreview > a > img {
+	height: 20dvh;
+	border-radius: 1em;
 }
+
 
 .projectPreview {
 	max-width: 65dvw;
