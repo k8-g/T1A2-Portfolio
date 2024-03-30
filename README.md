@@ -1,4 +1,4 @@
-# Kate Gerber's T1A2-Portfolio Assignment
+# Kate Gerber's T1A2: Portfolio Assignment
 
 
 [(T1A2:Portfolio - Website Assigment)](https://ait.instructure.com/courses/5198/assignments/55633)
@@ -20,27 +20,27 @@ The target audience is for potential employers to view my learned skills, or to 
  **Navigation Bar**
 - Mobile view dropdown style menu with hamburger icon
 
-    Located on the right side of every page in mobile/smaller screens view in the header, for easy access, allowing the user to navigate to all the main pages of the website, including the Home page, About page, Projects overview page, Blogs overview page about Contact page.
+    Located on the right top corner of every page in mobile/smaller screens view in the header, for easy access, allowing the user to navigate to all the main pages of the website, including the Home page, About page, Projects overview page, Blogs overview page and Contact page.
 
 - Desktop view horizontal text style menu
 
-    Located horizontally across the top in the header of desktop/wider screens view, for easy access allowing the user to easily see and navigate to all the main pages of the website.
+    Located horizontally across the top in the header, starting from the right top corner going backwards, for easy access allowing the user to easily see and navigate to all the main pages of the website while viewing from a wider screen/desktop view.
 
 
 **Home Icon**
-- Home icon located on the left of all screens in the header, viewable in both mobile and desktop views. Allows the user to easily go back to the home page.
+- Home icon located on the left top corner of all pages in the header, viewable in both mobile and desktop views. Allows the user to easily go back to the home page.
 
 
 **Mobile & Desktop views**
-- Some pages have two separate CSS styling to change what the user sees depending on the size of the screen they are viewing from. This is utilised in the following pages; About page, Projects overview page, and Blogs overview page. 
+- Some page's main content, as well as all navigation bars, have two separate CSS stylesheets, to change what the user sees depending on the size of the screen they are viewing from. This is labeled as 'mobile view' and 'desktop view' and is utilised in the following pages; About page, Projects overview page, and Blogs overview page.  
 
 
 **Buttons**
-- Used on Home page and Contact page to link to other pages or to external sites, outside of my website.
+- Used on the Home page and Contact page, the buttons link to other pages, or to external sites outside of this website.
 
 
 **Images with tooltips**
-- As well as having alt text, some images have a hoverable tooltop explaining to the user what the picture is of. See [Project 02](https://k8g-portfolio.netlify.app/pages/project02) for example.
+- As well as having alt text, some images have a hoverable tooltop explaining to the user what the picture is of. See [Project 02](https://k8g-portfolio.netlify.app/pages/project02) for example. Alt text tells the user what the image is supposed to be if the image link is broken for some reason, and it is also used by screen readers to read aloud to the visually impaired what the image is.
 
 
 **Hover Behaviours**
