@@ -14,12 +14,12 @@
     --thistle: #E1C8F8;
     }  
 
-
+/* Everything */
 * {
     margin: 0;
 }
 
-/* Header/Title of page */
+/* Header at top of page */
 header {
     display: flex; 
     font-family: 'Courier New', Courier, monospace;
@@ -29,7 +29,6 @@ header {
     background-color: var(--heliotrope);
     border-bottom: 1px solid var(--persian-indigo);
 }
-
 
 /* Icon which links to home page */
 .header-icon {
@@ -75,32 +74,17 @@ nav > a:hover {
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
+/* Nav bar mobile hambburger menu icon */
 .menu {
   width: 50px;
   height: 50px;
   background: url("../assets/icons8-menu-40.png") no-repeat;
- 
-
 }
 
-/* Changes home icon to white when hovered */
+/* Changes the menuu icon to white when hovered */
 .menu:hover {
   background: url("../assets/icons8-menu-40-white.png") no-repeat;
 }
-
-
-
-
-
 
 /* Dropdown menu button, code from w3schools.com*/
 .dropbtn {
@@ -117,6 +101,7 @@ nav > a:hover {
     display: inline-block;
   }
 
+  /* Styles what the dropdown menu looks like */
 .dropdown-content {
     display: none;
     position:absolute;
@@ -155,31 +140,32 @@ nav > a:hover {
     width:fit-content;
 }
 
-
-
 /* Background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     border-radius: 1em;
     color: white;
 }
 
+/* Styles lines inside dropdown menu */
 .dropdown .dropdown-content ul li {
   width: 100%;
 }
-
+/* Changes background colour when hovered in drowndown menu */
 .dropdown .dropdown-content ul li a:hover {
   background-color: var(--tekhelet);
 }
 
+/* Changes backgrtound colour in dropndown menu's second level that pops out */
 .dropdown .dropdown-content ul li ul {
-  /* padding-right: 0.1em; */
   background-color: var(--heliotrope);
 }
 
+/* Makes background of the lines in second level transparent */
 .dropdown .dropdown-content ul li ul li {
   background-color: transparent;
 }
 
+/* Changes the background colour when hovered over lines/links in second level menu that pops out */
 .dropdown .dropdown-content ul li:hover {
   background-color: var(--tekhelet) ;
 }
@@ -192,30 +178,29 @@ ul {
     list-style: none;
     overflow: hidden;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
     border-radius: 0.75em;
-  }
+}
 
 
   ul:hover {
     overflow: visible;
     width: auto;
-  }
+}
 
+  /* Lines in first layer of menu */
   li {
     position: relative;
     float: left;
     border-radius: 0.75em;
     width: max-content;
-  }
+}
 
+  /* Styles what happens when hovered over first layer of dropdown menu */
   li:hover {
     border-top-right-radius: 1em;
     width: max-content;
-  }
+}
 
- 
-  
   /* Second layer of dropdown menu */
   ul ul {
     position: absolute;
@@ -225,28 +210,21 @@ ul {
     transition: height 0.5s;
     border-radius: 0.75em;
     background-color: transparent; 
-  }
+}
 
+  /* Makes second level pop out when hoevered over line in first layer*/
   ul li:hover ul {
     width:100%;
     transition: all 0.2s ease-in-out;
-
-  }
+}
   
- 
+  /* Changes background colour when hovered over lines in second layer */
   ul ul li:hover {
     background-color: var(--russian-violet-2);
-  }
+}
   
 
-
-
-
-
-
-
-
-/* Entire page */
+/* Entire page's content */
 body {
     display: flex;
     flex-direction: column;
@@ -255,7 +233,7 @@ body {
 }
 
 
-/* main section on page */
+/* Main section on page */
 main {
     min-height: 85dvh; 
     width: 100dvw;
@@ -265,12 +243,12 @@ main {
     align-items: center;
 }
 
-/* "everything" in main */
+/* "Everything" in main */
 main > * {
     margin: 0.5em;
 }
 
-/* Links in main*/
+/* Styles links in main*/
 main > a {
     margin: 0;
     color: var(--tekhelet);
@@ -279,7 +257,7 @@ main > a {
     align-items: center;
 }
 
-/* Links when hovered in main*/
+/* Styles links when hovered in main*/
 main > a:hover {
     color: white;
     background-color: var(--russian-violet-2);
@@ -288,7 +266,7 @@ main > a:hover {
     padding-bottom: 0.25em;
 }
 
-/* Image in main*/
+/* Styles image in main*/
 main > img {
     height: 30dvh;
     width: auto;
@@ -298,7 +276,7 @@ main > img {
 }
 
 
-/* Paragraph/text in main*/
+/* Styles paragraph/text in main*/
 main > p {
     font-size: medium;
     margin-left: 5em;
@@ -306,13 +284,13 @@ main > p {
     margin-bottom: 1em;
 }
 
-/* Title/'Hi!' in main*/
+/* Styles title in main */
 main > h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* Text container */
+/* Styles text container */
 main > .intro {
     background-color: var(--mauve);
     display: flex;
@@ -329,16 +307,17 @@ main > .intro {
     
 }
 
+/* Styles links when hovered in main text box*/
 main > .intro a:hover {
   color:white;
   }
   
-
-main >.intro > h1 {
+/* Styles title in main text box  */
+main .intro > h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* Button to click to 'About' page */
+/* Styles button to click to 'About' page */
 .button {
     background-color: var(--french-violet); 
     border: white;
@@ -371,15 +350,10 @@ main >.intro > h1 {
     color: white;
   }
 
-
-
-
-
 /* Footer/text at bottom of pages */
 footer {
     height: 5dvh;
     width: 100dvw; 
-    
     display: flex;
     justify-content:  center;
     align-items: center;
@@ -387,15 +361,12 @@ footer {
     background-color:var(--mauve);
 } 
 
-
-  
-
-/* desktop */
+/* Desktop view styling*/
 @media only screen and (min-width: 768px) {
   
 }
 
-/* smaller/mobile */
+/* Mobile view styling*/
 @media only screen and (max-width: 768px) {
  
 
