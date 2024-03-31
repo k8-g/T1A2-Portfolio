@@ -96,6 +96,17 @@ High quality images/pdf links & lower quality screenshots included, in case the 
 ### Desktop View Wireframes
 [Desktop View Wireframes](https://k8g-portfolio.netlify.app/pages/wireframes)
 
+
+- [Home Page Desktop View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Home%20Page%20Desktop%20View%20Wireframe.pdf)
+
+- [About Page Desktop View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/About%20Page%20Desktop%20View%20Wireframe.pdf)
+
+- [Projects Page Desktop View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Projects%20Page%20Desktop%20View%20Wireframe.pdf)
+
+- [Blogs Page Desktop View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Blogs%20Page%20Desktop%20View%20Wireframe%20copy.pdf)
+
+- [Contact Page Desktop View Wireframe Layout](/docs/Sitemap%20&%20Wireframes/Contact%20Page%20Desktop%20View%20Wireframe.pdf)
+
 ### Screenshots of Actual Pages
 - Home <br>
 ![Screenshot of Home Page Mobile View](/docs/Screenshots/Home%20Page%20Mobile%20View.png)
