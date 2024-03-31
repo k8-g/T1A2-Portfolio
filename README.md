@@ -43,7 +43,7 @@ The target audience is potential employers looking to hire an aspiring junior we
 **Images with Tooltips**
 - As well as having alt text, some images have a hoverable tooltip explaining to the user what the picture is of. (See [Project 02](https://k8g-portfolio.netlify.app/pages/project02) for example).
 
-- Alt text tells the user what the image is supposed to be of, if the image link is broken for some reason, which is useful when trying to code websites, in that it tells you which image link is broken. It is also used by screen readers to read aloud to the visually impaired user, what the image is, which is important for accessibility and making your website user-friendly for the visually impaired.
+- Alt text tells the user what the image is supposed to be of, if the image link is broken for some reason, which is useful when trying to code websites, in that it tells you which image link is broken. It is also used by screen readers to read aloud to the visually impaired user what the image is, which is important for accessibility and making your website user-friendly for the visually impaired.
 
 
 **Hover Behaviours**
@@ -51,7 +51,7 @@ The target audience is potential employers looking to hire an aspiring junior we
 
 
 **Back to Top Button**
-- This button pops up when the user has scrolled down a certain amount, allowing the user to easily pop back to the top to access the navigation bar more quickly. It has has a colour change effect when hovered over.
+- This button pops up when the user has scrolled down a certain amount, allowing the user to easily pop back to the top to access the navigation bar more quickly. It also has a colour change effect when hovered over.
 
 
 ## Screenshots
