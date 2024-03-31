@@ -147,7 +147,8 @@ Professional services used in this assignment include:
 - Icons from [Icons8](https://icons8.com/)
 - Google (for questions, images and Javascript)
 - [W3Schools](https://www.w3schools.com/)
-- Images from my phone/laptop
+- Photos from my phone/laptop
+- Other free images from FreePik, Wikipedia, deviantArt and Muse AI
 - My shoddy memory
 
 ### Hope you enjoyed my website 😊

@@ -44,6 +44,7 @@
     background-color: var(--heliotrope);
     transition: 0.3s ease-in-out;
     display: block;
+   
   }
 
   /* Second level drop down menu link hover behaviour */
@@ -58,22 +59,29 @@
   .nav-links ul li ul li {
     background-color: transparent;
     width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
   }
 
   /* Second dropdown menu level in desktop nav bar link behaviour */
  .nav-links ul li ul li a {
     background-color: transparent;
     list-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     display: block;
-    padding: 0.25em;
+    padding: 0.5em;
   }
 
 /* Second level dropdown menu link hover behaviour */
   .nav-links ul li ul li a:hover {
     color: white;
   }
+
+  .nav-links a {
+    background-color: transparent;
+  }
+
 }
 
 
