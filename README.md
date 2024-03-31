@@ -20,12 +20,12 @@ The target audience is potential employers looking to hire an aspiring junior we
  **Navigation Bar**
 - Mobile view dropdown style menu with hamburger icon
 
-    Located on the right top corner of every page in mobile view/smaller screens in the header; for easy access, allowing the user to navigate to all pages of the website.
+    - Located on the right top corner of every page in mobile view/smaller screens in the header; for easy access, allowing the user to navigate to all pages of the website.
 
 
 - Desktop view horizontal text style menu
 
-    Located horizontally across the top in the header, starting from the right top corner going backwards, for easy access allowing the user to easily see and navigate to all the main pages of the website while viewing from a wider screen/desktop view. When hovered over Projects or Blogs, it shows a second hidden level of the menu, showing extra pages located related that section.
+    - Located horizontally across the top in the header, starting from the right top corner going backwards, for easy access allowing the user to easily see and navigate to all the main pages of the website while viewing from a wider screen/desktop view. When hovered over Projects or Blogs, it shows a second hidden level of the menu, showing extra pages located related to that section.
 
 
 **Home Icon**
@@ -43,7 +43,7 @@ The target audience is potential employers looking to hire an aspiring junior we
 **Images with Tooltips**
 - As well as having alt text, some images have a hoverable tooltip explaining to the user what the picture is of. (See [Project 02](https://k8g-portfolio.netlify.app/pages/project02) for example).
 
-Alt text tells the user what the image is supposed to be of, if the image link is broken for some reason, which is useful when trying to code websites, in that it tells you which image link is broken. It is also used by screen readers to read aloud to the visually impaired user, what the image is, which is important for accessibility and making your website user-friendly for the visually impaired.
+- Alt text tells the user what the image is supposed to be of, if the image link is broken for some reason, which is useful when trying to code websites, in that it tells you which image link is broken. It is also used by screen readers to read aloud to the visually impaired user, what the image is, which is important for accessibility and making your website user-friendly for the visually impaired.
 
 
 **Hover Behaviours**
