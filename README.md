@@ -105,13 +105,13 @@ High quality images/pdf links & lower quality screenshots included, in case the 
 ![Screenshot of About Page Mobile View](/docs/Screenshots/About%20Page%20Mobile%20view.png)
 ![Screenshot of About Page Desktop View](/docs/Screenshots/About%20Page%20Desktop%20View.png)
 
-- Projects <br> ADD DESKTOP VIEW
-![Screenshots of Project Page Mobile View](/docs/Screenshots/Projects%20Mobile%20View.png)
-![Screenshots of Project Page Desktop View]()
+- Projects <br>
+![Screenshots of Project Page Mobile View](/docs/Screenshots/Projects%20Page%20Mobile%20View.png)
+![Screenshots of Project Page Desktop View](/docs/Screenshots/Projects%20Page%20Desktop%20View.png)
 
-- Blogs <br> ADD DESKTOP VIEW
-![Screenshots of Blogs Page Mobile View](/docs/Screenshots/Blog%20Page%20Mobile%20View.png)
-![Screenshots of Blogs Page Mobile View]()
+- Blogs <br> 
+![Screenshots of Blogs Page Mobile View](/docs/Screenshots/Blogs%20Page%20Mobile%20View.png)
+![Screenshots of Blogs Page Desktop View](/docs/Screenshots/Blogs%20Page%20Desktop%20View.png)
 
 - Contact <br>
 ![Screenshots of Contact Page Mobile View](/docs/Screenshots/Contact%20Page%20Mobile%20view.png)
