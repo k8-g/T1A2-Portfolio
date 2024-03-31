@@ -157,13 +157,13 @@ The site map shows all the available pages on the website. It starts with the Ho
 Coding languages used:
 - HTML5
 - CSS
--Javascript
+- Javascript
 
 Professional services used in this assignment include:
-- VS Code
-- GitHub
-- Netlify
-- Figma
+- [VS Code](https://code.visualstudio.com/) (IDE)
+- [GitHub](https://github.com/) (Code repository)
+- [Netlify](https://app.netlify.com/) (deployment platform)
+- [Figma](https://www.figma.com/) (Wireframes)
 - [Flowchart Maker](https://app.diagrams.net/)
 - [Trello](https://trello.com/)
 
