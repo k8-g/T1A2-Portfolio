@@ -136,8 +136,8 @@ main {
 	.projectPreview > img {
 		/* height: auto; */
 		max-height: auto;
-		max-width: 60dvw;
-		border-radius: 1em;
+		max-width: 30em;
+		border-radius: 0.75em;
 	}
 }
 

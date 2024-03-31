@@ -53,6 +53,22 @@ The target audience is potential employers looking to hire an aspiring junior we
 **Back to Top Button**
 - This button pops up when the user has scrolled down a certain amount, allowing the user to easily pop back to the top to access the navigation bar more quickly. It also has a colour change effect when hovered over.
 
+### Components
+
+Components utilised:
+ - .header This is where the navigation bars are contained for easy access
+ - .footer This is at the bottom of the page and it contains my name
+ - .nav and .dropdown-content are used for the navigation on the mobile view
+ - .nav-links is different styling for the desktop view navigation
+ - .intro This is used as a text box to style the home and about pages on desktop view
+ - .mobile-textbox and .mobile-textbox2 is for the mobile view to style the textbox to fit one about the other for narrower screens
+ - .columns, .column1 and .column2 on the about page are used to split the content up to break up the page and fill the empty space on desktop view
+ - .backtotop is used for the back to top button
+ - .projectPreview are used to give a small view of the full project page that they link to. These are also used for the blog post previews.
+ - .contentRow is used as a container for previews and it can wrap depending on the page size
+ - .date is used for presenting blog post dates
+ - .button Used to style links on the contacts page
+ - main img This is used to display a picture on the main section
 
 ## Screenshots
 ### Mobile View Wireframes
